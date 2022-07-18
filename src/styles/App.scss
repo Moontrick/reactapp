@@ -177,15 +177,16 @@ header{
 }
 footer{
   display: flex;
-  height: 148px;
+  height: 353px;
   width: 1620px;
   margin: 20px auto;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .footer-section{
   display: flex;
   align-items: center;
+  height: 150px;
 }
 .footer-position{
   width: 148.48px;
@@ -200,6 +201,11 @@ footer{
 }
 .l-c{
   margin-right: 22px;
+}
+.r-c{
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
 }
 .footer-position:hover{
   background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
@@ -352,41 +358,8 @@ footer{
   margin-left: 42px;
 }
 
-.circle-d-1{
-  background: url(../assets/circle-d-1.svg)center 0 no-repeat;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-}
-.circle-d-2{
-  background: url(../assets/circle-d-2.svg)center 0 no-repeat;
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-}
-.circle-d-3{
-  background: url(../assets/circle-d-3.svg)center 0 no-repeat;
-  width: 100%;
-  height: 100%;
-  z-index: 4;
-}
-.drid-ic{
-  background: url(../assets/dridik.svg)center 0 no-repeat;
-  width: 300px;
-  height: 300px;
-  z-index: 5;
-}
-.drid{
-  position: fixed;
-  left: 0;
-  text-align: center;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: 25% auto;
-  width: 200px;
-  height: 200px;
-}
+
+
 
 
 .profile{
@@ -540,6 +513,7 @@ footer{
 }
 
 .number-cards{
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -951,6 +925,7 @@ footer{
 
 }
 #car-information{
+  margin-bottom: 20px;
   font-family: 'Nippo';
   font-style: normal;
   font-weight: 300;
@@ -959,6 +934,152 @@ footer{
   letter-spacing: 1.90362px;
   color: #FFFFFF;
   opacity: 0.8;
+}
+.dashboard{
+  margin-bottom: 25px;
+  margin-top: 7px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:76px;
+  width:1210px;
+}
+.dashboard-title{
+  position: relative;
+  width:659px;
+  height: 26px;
+  font-family: "Sportypo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 76px;
+  line-height: 71px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  text-shadow: 0px 28.5543px 76.1448px rgba(214, 50, 143, 0.47);
+}
+.dashboard-title .id1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #D2459E;
+  margin: -3px 3px 0px 0px;
+}
+.dashboard-title .id2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #17E3F3;
+  margin: 3px -3px 0px 0px;
+}
+.dashboard-title .id3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  margin:0;
+}
+.personal-link{
+  width: 278px;
+  height: 88px;
+  background: rgb(190, 190, 190, 0.05);
+  border-radius: 4.75905px;
+}
+.pesonal-link-content{
+  margin:16px 18px 15px 17px;
+}
+.personal-link-title{
+  height: 16px;
+  font-family: 'Nippo';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 107%;
+  letter-spacing: 2.85543px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 11px;
+}
+.link-lower-panel{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.link-line{
+  display:flex;
+  flex-direction: column;
+}
+.link-purple-line{
+  width: 96px;
+  height: 2px;
+  background: #EA3498;
+  opacity: 0.4;
+  box-shadow: 0px -28.5543px 66.6267px 85.6629px rgba(234, 52, 151, 0.06);
+  margin-bottom: 3px;
+}
+.link-text{
+  width: 96px;
+  height: 21px;
+  font-family: 'Nippo';
+  font-style: normal;
+  font-weight: 378;
+  font-size: 15.2289px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.link-img1{
+  margin-left:17px;
+  width:88px;
+  height:30px;
+  margin-right:8px;
+}
+.link-img2{
+  width:32px;
+  height:30px;
+}
+.r-c-obs{
+  display: flex;
+  align-items: center;
+}
+.drid{
+  background: url(../assets/dridik.svg)center 0 no-repeat;
+  width: 300px;
+  height: 300px;
+  z-index: 5;
+  position: relative;
+  bottom: 50px;
+  right: 70px;
+}
+.circle-1{
+  background: url(../assets/circle-d-1.png)center 0 no-repeat;
+  width: 300px;
+  height: 300px;
+  z-index: 4;
+  position: relative;
+  bottom: -55px;
+  right: -5px;
+}
+.circle-2{
+  background: url(../assets/circle-d-2.png)center 0 no-repeat;
+  width: 300px;
+  height: 300px;
+  z-index: 3;
+  position: relative;
+  bottom: -20px;
+  right: -45px;
+}
+.circle-3{
+  background: url(../assets/circle-d-3.png)center 0 no-repeat;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+  position: relative;
+  bottom: -41px;
+  right: 241px;
 }
 // .sphere {
 

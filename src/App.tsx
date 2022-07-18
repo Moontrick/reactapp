@@ -1,3 +1,4 @@
+import React,{useState, Fragment} from 'react';
 import './styles/App.scss';
 import cardsLogo from './assets/cards3.svg'
 import profileLogo from './assets/images/profile-icon.svg'
@@ -12,8 +13,18 @@ import cardTools from './assets/images/card-tools.svg'
 import cardTrade from './assets/images/card-trade.svg'
 import cardTime from './assets/images/card-time.svg'
 import cardProgress from './assets/images/card-progress.svg'
+import linkCopy from './assets/images/link-copy.svg'
+import linkShare from './assets/images/link-share.svg'
+
+
+
 function App() {
 
+
+    const [val, setVal] = useState({ min: 0, max: 100 });
+
+
+    
     return (
         <div className="App">
             <header>
@@ -104,6 +115,26 @@ function App() {
                 </div>
             </div>
             <div className='r-c-s'>
+            <div className='dashboard'>
+                    <div className='dashboard-title'>
+                        <div className="id2">Dashboard</div>
+                        <div className="id1">Dashboard</div>
+                        <div className="id3">Dashboard</div>
+                    </div>
+                    <div className = "personal-link">
+                        <div className = "pesonal-link-content">
+                            <div className = "personal-link-title">My personal link:</div>
+                            <div className='link-lower-panel'>
+                                <div className='link-line'>
+                                    <div className='link-purple-line'></div>
+                                    <div className='link-text'>BSG.IO/Id1245</div>
+                                </div>
+                                <img className='link-img1' src = {linkCopy}></img>
+                                <img className='link-img2' src = {linkShare}></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='number-cards'>
                     <div className='card'>
                         <div className='card-all'>
@@ -240,22 +271,10 @@ function App() {
                     </div>
             </div>
             </div>
-            {/* <div className='sphere'>
+            
 
-            </div> */}
-            {/* <div className='drid'>
-                <div className='drid-ic'>
-                    <div className='circle-d-3'>
-                        <div className='circle-d-2'>
-                            <div className='circle-d-1'>
-                                
-                                  
-                                        
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-            </div> */}
+
+
             <footer>
                 <div className='pre-footer'>
                     <h1>Navigation of the site</h1>
@@ -316,11 +335,19 @@ function App() {
                         </div>
                     </div>
                     <div className='r-c'>
-                        <div className='chatik'>
-                            <div className='chat-ic'/>
-                            <h1> Chat with us</h1>
+                        <div className='r-c-obs'>
+                            <div className='chatik'>
+                                <div className='chat-ic'/>
+                                <h1> Chat with us</h1>                           
+                            </div>
+                            <div className='circle-3'>
+                                <div className='circle-2'>
+                                    <div className='circle-1'>
+                                        <div className='drid'/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
                     </div>
                 </div>
             </footer>
