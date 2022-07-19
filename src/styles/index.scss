@@ -34,6 +34,7 @@ body {
   background: #000000 url(../assets/bg.png) center 0 no-repeat;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 ol, ul {
   list-style: none;
@@ -54,7 +55,7 @@ table {
 
 @font-face {
   font-family: 'Nippo';
-  src: url('../assets/Nippo-Regular.otf') format('opentype');
+  src: url('../assets/Nippo-Extralight.ttf') format('opentype');
 }
 @font-face {
   font-family: 'Sportypo';
