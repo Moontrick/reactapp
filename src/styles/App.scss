@@ -1083,10 +1083,9 @@ footer{
   right: 180px;
 }
 .car{
-  margin-left: 20px;
   display:flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
   width:800px;
   height:441px;
   box-sizing: border-box;
@@ -1203,12 +1202,14 @@ footer{
 .car-center-block{
   display:flex;
   flex-direction: row;
+  justify-content: space-between;
   width:708px;
   height:368px;
 }
 .car-parameters{
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .car-parameter{
   width:165px;
@@ -1337,6 +1338,9 @@ footer{
   border-radius: 8px;
   margin:1px;
 }
-.down-c-s{
-  display: flex;
+.car-big{
+  width:295px;
+  height:364px;
+  background: url(../assets/images/big-car-bg.svg) center center no-repeat;
 }
+
