@@ -1084,259 +1084,302 @@ footer{
 }
 .car{
   margin-left: 20px;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width:800px;
-  height:441px;
-  box-sizing: border-box;
-  background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
-  mix-blend-mode: normal;
-  border: 2.37545px solid rgba(255, 255, 255, 0.088);
-  border-radius: 5.24558px;
-}
-.car-upper-block{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  width:708px;
-  height:44px;
-  background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
-  mix-blend-mode: normal;
-  border-radius: 5.24558px;
-  margin-top:17px;
-}
-.car-slider{
-  width: 235px;
-  height: 17px;
-  background: url(../assets/images/car-slider.svg) center center no-repeat;
-}
-.car-slider-limit{
-  height: 19px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 200;
-  font-size: 16.7859px;
-  line-height: 107%;
-  text-align: center;
-  letter-spacing: 3.14735px;
-  color: #FFFFFF;
-  opacity: 0.6;
-  margin-left:6px;
-  margin-right:12px;
-}
-.car-slider-point{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width:26px;
-  height:17px;
-  background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
-  box-shadow: 0px 0px 52.4558px #E33093;
-  border-radius: 5.24558px;
-  margin-left:149px;
-}
-.car-slider-point div{
-  width:9px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14.4116px;
-  line-height: 107%;
-  text-align: center;
-  letter-spacing: 3.14735px;
-  color: #FFFFFF;
-  opacity: 0.6;
-}
-.car-img1{
-  width:24px;
-  height:18px;
-  margin-left:28px;
-}
-.car-img2{
-  width: 97px;
-  height: 32px;
-  margin-left:35px;
-}
-.car-img3{
-  width:20px;
-  height:50px;
-  margin-top:9px;
-  margin-right:25px;
-}
-.car-img4{
-  height:78px;
-  width:4px;
-  margin-right:25px;
-  margin-top:9px;
-}
-.car-img5{
-  margin-right:25px;
-  margin-top:54px;
-}
-.car-tesla-text{
-  width: 99px;
-  height: 16px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13.6385px;
-  line-height: 16px;
-  letter-spacing: 0.97418px;
-  color: #FFFFFF;
-  opacity: 0.9;
-  margin-left:11px;
-  margin-right:9px;
-}
-.car-tesla-text2{
-  width: 52px;
-  height: 13px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13.64px;
-  line-height: 13px;
-  color: #FFFFFF;
-  opacity: 0.4;
-  margin-right:29px;
-}
-.car-center-block{
-  display:flex;
-  flex-direction: row;
-  width:708px;
-  height:368px;
-}
-.car-parameters{
-  display:flex;
-  flex-direction: column;
-}
-.car-parameter{
-  width:165px;
-  height:140px;
-  background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
-  mix-blend-mode: normal;
-  border-radius: 5.24558px;
-}
-.car-parameter-content{
-  margin:25px 0 auto 24px;
-}
-.car-parameter-content2{
-  margin:24px 36px 25px 23px;
-}
-.car-parameter-content-column{
-  display:flex;
-  flex-direction: column;
-}
-#car-content2{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.car-parameter-title{
-  height: 16px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13.6385px;
-  line-height: 16px;
-  letter-spacing: 0.97418px;
-  color: #FFFFFF;
-  mix-blend-mode: normal;
-  opacity: 0.6;
-  margin-bottom:13px;
-}
-.car-parameter-value{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.car-parameter-value2{
-  display:flex;
-  flex-direction: column;
-}
-.car-parameter-value-content{
-  display:flex;
-  align-items: center;
-}
-#car-value-content{
-  align-items: flex-start;
-}
-.car-parameter-value-text1{
-  width: 59px;
-  height: 42px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 50.3576px;
-  line-height: 42px;
-  color: #FFFFFF;
-}
-.car-parameter-value-text2{
-  height: 15px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 15px;
-  text-align: center;
-  color: #FFFFFF;
-}
-.car-parameter-value-text3{
-  height: 28px;
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 27px;
-  line-height: 27px;
-  letter-spacing: 0.524558px;
-  color: #FFFFFF;
-  margin-right:5px;
-}
-#car-text2{
-  margin-top:2px;
-}
-#parameter-text3{
-  width:36px;
-}
-.car-radio{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-.car-radio-text{
-  font-family: 'Nippo';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14.6876px;
-  line-height: 34px;
-  letter-spacing: 0.564909px;
-  color: #FFFFFF;
-  opacity: 0.9;
-}
-.car-radio-button{
-  display: flex;
-  align-items: center;
-  width:27px;
-  height:17px;
-  background: linear-gradient(90deg, rgba(210, 70, 158, 0.415) 0.78%, rgba(75, 213, 207, 0.415) 100.02%);
-  mix-blend-mode: normal;
-  border-radius: 104.912px;
-
-}
-#car-button1{
-  justify-content: flex-end;
-}
-.car-radio-check{
-  width:15px;
-  height:15px;
-  background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
-  opacity: 0.9;
-  box-shadow: 0px 0px 52.4558px #E33093;
-  border-radius: 8px;
-  margin:1px;
-}
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:800px;
+    height:441px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
+    mix-blend-mode: normal;
+    border: 2.37545px solid rgba(255, 255, 255, 0.088);
+    border-radius: 5.24558px;
+  }
+  .car-upper-block{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:708px;
+    height:44px;
+    background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
+    mix-blend-mode: normal;
+    border-radius: 5.24558px;
+    margin-top:17px;
+  }
+  .car-slider{
+    width: 235px;
+    height: 17px;
+    background: url(../assets/images/car-slider.svg) center center no-repeat;
+  }
+  .car-slider-limit{
+    height: 19px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16.7859px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 3.14735px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-left:6px;
+    margin-right:12px;
+  }
+  .car-slider-point{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:26px;
+    height:17px;
+    background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+    box-shadow: 0px 0px 52.4558px #E33093;
+    border-radius: 5.24558px;
+    margin-left:149px;
+  }
+  .car-slider-point div{
+    width:9px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.4116px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 3.14735px;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+  .car-img1{
+    width:24px;
+    height:18px;
+    margin-left:28px;
+  }
+  .car-img2{
+    width: 97px;
+    height: 32px;
+    margin-left:35px;
+  }
+  .car-img3{
+    width:20px;
+    height:50px;
+    margin-top:9px;
+    margin-right:25px;
+  }
+  .car-img4{
+    height:78px;
+    width:4px;
+    margin-right:25px;
+    margin-top:9px;
+  }
+  .car-img5{
+    margin-right:25px;
+    margin-top:54px;
+  }
+  .car-tesla-text{
+    width: 99px;
+    height: 16px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.6385px;
+    line-height: 16px;
+    letter-spacing: 0.97418px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-left:11px;
+    margin-right:9px;
+  }
+  .car-tesla-text2{
+    width: 52px;
+    height: 13px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.64px;
+    line-height: 13px;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-right:29px;
+  }
+  .car-center-block{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:708px;
+    margin-top:12px;
+  }
+  .car-parameters{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:319px;
+    margin-top:20px;
+  }
+  .car-parameter{
+    width:165px;
+    height:140px;
+    background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
+    mix-blend-mode: normal;
+    border-radius: 5.24558px;
+  }
+  .car-parameter-content{
+    margin:25px 0 auto 24px;
+  }
+  .car-parameter-content2{
+    margin:24px 36px 25px 23px;
+  }
+  .car-parameter-content-column{
+    display:flex;
+    flex-direction: column;
+  }
+  #car-content2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .car-parameter-title{
+    height: 16px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.6385px;
+    line-height: 16px;
+    letter-spacing: 0.97418px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-bottom:13px;
+  }
+  .car-parameter-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .car-parameter-value2{
+    display:flex;
+    flex-direction: column;
+  }
+  .car-parameter-value-content{
+    display:flex;
+    align-items: center;
+  }
+  #car-value-content{
+    align-items: flex-start;
+  }
+  .car-parameter-value-text1{
+    width: 59px;
+    height: 42px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50.3576px;
+    line-height: 42px;
+    color: #FFFFFF;
+  }
+  .car-parameter-value-text2{
+    height: 15px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .car-parameter-value-text3{
+    height: 28px;
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 27px;
+    letter-spacing: 0.524558px;
+    color: #FFFFFF;
+    margin-right:5px;
+  }
+  #car-text2{
+    margin-top:2px;
+  }
+  #parameter-text3{
+    width:36px;
+  }
+  .car-radio{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .car-radio-text{
+    font-family: 'Nippo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.6876px;
+    line-height: 34px;
+    letter-spacing: 0.564909px;
+    color: #FFFFFF;
+    opacity: 0.9;
+  }
+  .car-radio-button{
+    display: flex;
+    align-items: center;
+    width:27px;
+    height:17px;
+    background: linear-gradient(90deg, rgba(210, 70, 158, 0.415) 0.78%, rgba(75, 213, 207, 0.415) 100.02%);
+    mix-blend-mode: normal;
+    border-radius: 104.912px;
+  
+  }
+  #car-button1{
+    justify-content: flex-end;
+  }
+  .car-radio-check{
+    width:15px;
+    height:15px;
+    background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+    opacity: 0.9;
+    box-shadow: 0px 0px 52.4558px #E33093;
+    border-radius: 8px;
+    margin:1px;
+  }
+  .car-big{
+    width:290px;
+    height:368px;
+    background: url(../assets/images/big-car-bg.svg) center center no-repeat;
+    background-size: 290px;
+    background-position-y: 38px;
+  }
+  .car-big-content{
+    width:290px;
+    height:368px;
+    background: url(../assets/images/123.png) center center no-repeat;
+    background-size: 765px;
+    background-position-y: -68px;
+  }
+  .car-big-up{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:290px;
+  }
+  .car-big-up img{
+    width:34px;
+    margin-top:38px;
+  }
+  .car-big-center{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin:0 auto;
+    width:238px;
+    margin-top:78px;
+  }
+  .car-big-center img{
+    width:34px;
+  }
+  #locked{
+    margin-top:88px;
+  }
 .down-c-s{
   display: flex;
 }

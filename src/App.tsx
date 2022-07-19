@@ -20,7 +20,8 @@ import carUpgrade from './assets/images/car-upgrade.svg'
 import carControls from './assets/images/car-controls.svg'
 import carLevel from './assets/images/car-level.svg'
 import carButton from './assets/images/car-button.svg'
-import carSlider from './assets/images/car-slider.svg'
+import carLocked from './assets/images/big-car-locked.svg'
+import carUnlocked from './assets/images/big-car-unlocked.svg'
 
 
 function App() {
@@ -320,6 +321,20 @@ function App() {
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='car-big'>
+                            <div className = "car-big-content">
+                                <div className = "car-big-up">
+                                    <img src = {carLocked}></img>
+                                </div>
+                                <div className = "car-big-center">
+                                    <img src = {carUnlocked}></img>
+                                    <img src = {carLocked}></img>
+                                </div>
+                                <div className = "car-big-up">
+                                    <img id = "locked" src = {carLocked}></img>
                                 </div>
                             </div>
                         </div>
