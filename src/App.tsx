@@ -15,7 +15,12 @@ import cardTime from './assets/images/card-time.svg'
 import cardProgress from './assets/images/card-progress.svg'
 import linkCopy from './assets/images/link-copy.svg'
 import linkShare from './assets/images/link-share.svg'
-
+import carTesla from './assets/images/car-tesla.svg'
+import carUpgrade from './assets/images/car-upgrade.svg'
+import carControls from './assets/images/car-controls.svg'
+import carLevel from './assets/images/car-level.svg'
+import carButton from './assets/images/car-button.svg'
+import carSlider from './assets/images/car-slider.svg'
 
 
 function App() {
@@ -212,7 +217,8 @@ function App() {
                     </div>
 
                 </div>
-                    <h1 id='car-information'>Here all your cars and main information</h1>
+                <h1 id='car-information'>Here all your cars and main information</h1>
+                <div className='down-c-s'>
                     <div className='left-right-c-s'>
                         <div className='left-up-bl'>
                             <div className='left-up-bl-up'>
@@ -269,6 +275,99 @@ function App() {
                             <div className='left-down-bl-down-line'/>
                         </div>
                     </div>
+                    <div className='car'>
+                    <div className='car-upper-block'>
+                        <img className='car-img1' src = {carTesla}></img>
+                        <div className='car-tesla-text'>Cyber Car V2</div>
+                        <div className='car-tesla-text2'>LEVEL 8</div>
+                        <div className = "car-slider-limit">0</div>
+                        <div className = 'car-slider'>
+                            <div className='car-slider-point'>
+                                <div>8</div>
+                            </div>
+                        </div>
+                        <div className = "car-slider-limit">12</div>
+                        <img className='car-img2' src = {carUpgrade}></img>
+                    </div>
+                    <div className='car-center-block'>
+                        <div className = "car-parameters">
+                            <div className='car-parameter'>
+                                <div className='car-parameter-content'>
+                                    <div className = "car-parameter-title">TEMPERATURE</div>
+                                    <div className = "car-parameter-value">
+                                        <div className = "car-parameter-value-content">
+                                            <div className='car-parameter-value-text1'>20</div>
+                                            <div className='car-parameter-value-text2'>ÂºC</div>
+                                        </div>
+                                        <img className='car-img3' src = {carControls}></img>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='car-parameter'>
+                                <div className='car-parameter-content2'>
+                                    <div className = "car-parameter-title">PHONE</div>
+                                    <div className = "car-parameter-value2">
+                                        <div className='car-radio'>
+                                            <div className='car-radio-text'>Speaker</div>
+                                            <div id="car-button1" className='car-radio-button'>
+                                                <div className='car-radio-check'></div>
+                                            </div>
+                                        </div>
+                                        <div className='car-radio'>
+                                            <div className='car-radio-text'>Mute</div>
+                                            <div className='car-radio-button'>
+                                                <div className='car-radio-check'></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className = "car-parameters">
+                            <div className='car-parameter'>
+                                <div id = "car-content2" className='car-parameter-content'>
+                                    <div className='car-parameter-content-column'>
+                                        <div className = "car-parameter-title">BATTERY</div>
+                                        <div className = "car-parameter-value3">
+                                            <div className='car-2-lines'>
+                                                <div id = "car-value-content" className = "car-parameter-value-content">
+                                                    <div className='car-parameter-value-text3'>65</div>
+                                                    <div id = "car-text2" className='car-parameter-value-text2'>%</div>
+                                                </div>
+                                                <div id = "car-value-content"  className = "car-parameter-value-content">
+                                                    <div className='car-parameter-value-text3'>145</div>
+                                                    <div id = "car-text2" className='car-parameter-value-text2'>km</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img className='car-img4' src = {carLevel}></img>
+                                </div>
+                            </div>
+                            <div className='car-parameter'>
+                                <div id = "car-content2" className='car-parameter-content'>
+                                    <div className='car-parameter-content-column'>
+                                        <div className = "car-parameter-title">TRIP A</div>
+                                        <div className = "car-parameter-value3">
+                                            <div className='car-2-lines'>
+                                                <div className = "car-parameter-value-content">
+                                                    <div id = "parameter-text3" className='car-parameter-value-text3'>151</div>
+                                                    <div className='car-parameter-value-text2'>km</div>
+                                                </div>
+                                                <div className = "car-parameter-value-content">
+                                                    <div id = "parameter-text3" className='car-parameter-value-text3'>1.4</div>
+                                                    <div className='car-parameter-value-text2'>h</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img className='car-img5' src = {carButton}></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
             </div>
             
