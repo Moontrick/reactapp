@@ -1,0 +1,15 @@
+@media only screen
+and (min-device-width: 771px) {
+    .App-mob{
+        display:none;
+    }
+}
+
+
+
+@media only screen
+and (max-device-width: 770px) {
+    .App-dec{
+        display:none;
+    }
+}

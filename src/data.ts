@@ -4,6 +4,13 @@ export interface ColourOption {
   readonly isFixed?: boolean;
   readonly isDisabled?: boolean;
 }
+
+export const customStyles1 = {
+   input:() =>({
+  width: "100px",
+}),
+
+}
 export const customStyles = {
   control: () => ({
     display:"inline-flex",
