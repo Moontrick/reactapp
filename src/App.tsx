@@ -20,7 +20,7 @@ import carUpgrade from './assets/images/car-upgrade.svg'
 import carControls from './assets/images/car-controls.svg'
 import carLevel from './assets/images/car-level.svg'
 import carButton from './assets/images/car-button.svg'
-import carSlider from './assets/images/car-slider.svg'
+import carBig from './assets/images/big-car-bg2.svg'
 
 
 function App() {
