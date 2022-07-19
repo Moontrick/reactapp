@@ -298,7 +298,7 @@ function App() {
                                     <div className = "car-parameter-value">
                                         <div className = "car-parameter-value-content">
                                             <div className='car-parameter-value-text1'>20</div>
-                                            <div className='car-parameter-value-text2'>ÂºC</div>
+                                            <div className='car-parameter-value-text2'>%</div>
                                         </div>
                                         <img className='car-img3' src = {carControls}></img>
                                     </div>
