@@ -20,7 +20,7 @@ import carUpgrade from './assets/images/car-upgrade.svg'
 import carControls from './assets/images/car-controls.svg'
 import carLevel from './assets/images/car-level.svg'
 import carButton from './assets/images/car-button.svg'
-import carBig from './assets/images/big-car-bg2.svg'
+import carSlider from './assets/images/car-slider.svg'
 
 
 function App() {
@@ -297,7 +297,7 @@ function App() {
                                     <div className = "car-parameter-value">
                                         <div className = "car-parameter-value-content">
                                             <div className='car-parameter-value-text1'>20</div>
-                                            <div className='car-parameter-value-text2'>ºC</div>
+                                            <div className='car-parameter-value-text2'>ÂºC</div>
                                         </div>
                                         <img className='car-img3' src = {carControls}></img>
                                     </div>
@@ -321,11 +321,6 @@ function App() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className='car-big'>
-                            <div className = "car-big-content">
-                                <img src = {carBig}></img>
                             </div>
                         </div>
                         <div className = "car-parameters">
