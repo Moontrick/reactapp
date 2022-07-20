@@ -2676,6 +2676,18 @@ and (max-device-width: 770px) {
         }
     }
     @media only screen
+    and (max-device-width: 429px) {
+        .c-c-mobile{
+            margin-left:75px;
+        }
+        .c-c{
+            width:346px;
+        }
+        .profile-img2{
+            right:84px;
+        }
+    }
+    @media only screen
     and (max-device-width: 415px) {
         .c-c-mobile{
             margin-left:68px;
