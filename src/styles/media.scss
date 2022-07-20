@@ -1,15 +1,2879 @@
-@media only screen
-and (min-device-width: 771px) {
+@media only screen and (min-device-width: 771px) {
     .App-mob{
         display:none;
+    }
+    @media only screen and (min-width: 1921px) {
+        body{
+            line-height: 1;
+            background: #000000 url(../assets/media/bg2k.svg) center 0 no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        header{
+        height: 158.15px;
+        width: 2194.78px;
+        }
+        footer{
+            height: 174.15px;
+            width: 2194.78px; 
+        }
+        .menu-open{
+            width: 42px;
+            height: 19px;
+        }
+        #card-prime-img{
+            width: 225px;
+            height: 210px;
+        
+        }
+        .card-prime h1{
+            width: 183px;
+            height: 44px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20.9795px;
+            line-height: 107%;
+            letter-spacing: 4.84143px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+        .smart-sc{
+            width: 278px;
+            height: 50px;
+            background-size: cover;
+        }
+        .smart-b{
+            width: 32px;
+            height: 38px;
+        }
+        .smart-sc h1 {
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+        .money{
+            background-size: cover;
+            width: 355px;
+            height: 64px;
+        }
+        .wallet{
+            width: 30px;
+            height: 28px;
+        }
+        .money h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+        .string{
+            width: 1.29px;
+            height: 27.99px;
+        }
+        .user-name{
+            width: 159px;
+        }
+        .user-name h1 {
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+        .user-pr{
+            width: 69px;
+            height: 69px;
+        }
+        .user-q{
+            width: 43px;
+            height: 43px;
+            margin: 13px 47px;
+        }
+        .search{
+            background-size: cover;
+            width: 31px;
+            height: 31px;
+        }
+        .pre-footer h1 {
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20.9795px;
+            line-height: 107%;
+            text-align: center;
+            letter-spacing: 3.22762px;
+            color: #FFFFFF;
+            opacity: 0.6;
+        }
+        .footer-section{
+            height: 190px;
+        }
+        .left-footer{
+            width: 248.53px;
+            height: 148.47px;
+        }
+        .left-footer h1{
+            width: 194px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20.9795px;
+            line-height: 107%;
+            /* or 22px */
+
+            text-align: center;
+            letter-spacing: 3.22762px;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+        }
+        .footer-line{
+            width: 62.94px;
+            height: 3.23px;
+            margin-top: 12px;
+        }
+        .dis-f{
+            height: 37.117671966552734px;
+            width: 33.89004135131836px;
+        }
+        .telega-f{
+            margin-left: 17px;
+            height: 37.117671966552734px;
+            width: 37.117671966552734px;
+        }
+        .footer-position{
+            width: 201.73px;
+            height: 148.47px;
+            margin-right: 12px;
+        }
+        .line-f{
+
+            width: 169.45px;
+            height: 122.65px;
+        }
+        .word-ic{
+            background-size: cover;
+            height: 42.67968px;
+            width: 42.310757px;
+          }
+          .partner-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .stat-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .info-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .telega-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .promo-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .news-ic{
+            background-size: cover;
+            height: 49.67968px;
+            width: 52.310757px;
+          }
+          .line-f h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 0.6;  
+        }
+        .chatik{
+            height: 148px;
+            width: 360px;
+        }
+        .chat-ic{
+            width: 45px;
+            height: 45px;
+        }
+        .chatik h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+        }
+        .footer-down-line{
+            height: 9.68px;
+            width: 207.73px;
+        }
+        .footer-block{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+        }
+        .profile{
+            height: 977.9697265625px;
+            width: 524.48876953125px;
+            margin-left: 35px;
+        }
+        .profile-icon img{
+            height: 222.78005981445312px;
+            width: 222.7059326171875px;
+        }
+        .profile-icon{
+            height: 175px;
+            width: 213px;
+            margin: 31px auto;
+        }
+        .card-count2{
+            
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 37.1177px;
+            line-height: 34px;
+            /* identical to box height, or 91% */
+            
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .profile-id{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 33.89px;
+            line-height: 31px;
+            /* or 90% */
+            margin: 80px auto 11px auto;
+            text-align: center;
+
+            color: #FFFFFF;
+
+            opacity: 0.9;
+        }
+        .wallet-id{
+            margin-top: 27px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20.9795px;
+            line-height: 28px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+        }
+        .wallet-id img{
+            height: 19.372177124023438px;
+            width: 20.710243225097656px;
+        }
+        .arrow-icon{
+            width: 74px;
+            height: 74px;
+            border-radius: 37px;
+        }
+        .arrow-icon img{
+            width: 27px;
+        }
+        .arrow-icon:hover{
+            background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+            box-shadow: 0px 0px 95.4494px #E33093;
+            border-radius: 37px;
+          }
+        .arrows-menu{
+            width: 470px;
+        }
+        .horizontal-line{
+            height: 111.35301971435547px;
+            width: 1.6138116121292114px;
+        }
+        .path{
+            margin-top: 25px;
+            height: 20.979551315307617px;
+            width: 20.979551315307617px;
+        }
+        .score-graph{
+            width: 526px;
+            height: 445px;
+            background-position-y: 0px;
+            background-size: cover;
+        }
+        .graph img{
+            margin: 88px 0px 0px 173px;
+        }
+        .graph{
+            width: 528px;
+            height: 181px;
+            background: url(../assets/images/graph.svg);
+            background-repeat: no-repeat;
+            background-position-x: -1px;
+            background-size: cover;
+        }
+        .profit-block{
+            height: 304px;
+        }
+        .profit{
+            left: 0;
+            right: 0;
+            top: 50px;
+            bottom: 0;
+            position: relative;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20.9795px;
+            line-height: 107%;
+            /* identical to box height, or 22px */
+
+            text-align: center;
+            letter-spacing: 3.22762px;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+        }
+        .button-show-svg{
+            height: 111.03132629394531px;
+            width: 337.28656005859375px;
+
+        }
+        .button-show-plus{
+            bottom: 77px;
+            right: 77px;
+            font-size: 36.5438px;
+        }
+        .r-c-s{
+            width: 1670px;
+            margin-left: 10px;
+            height: 984.67px;
+        }
+        .dashboard{
+            width: 1640px;
+            height: 119.42px;
+        }
+        .dashboard-title{
+            font-family: 'Sportypo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 96.8287px;
+            line-height: 97px;
+            /* or 100% */
+            
+            
+            color: #FFFFFF;
+            
+            opacity: 0.9;
+            text-shadow: 0px 38.8178px 103.514px rgba(214, 50, 143, 0.47);
+        }
+        .personal-link{
+            width: 377px;
+            height: 119px;
+            border-radius: 6.75905px;
+        }
+        .personal-link-title{
+            margin-top: 20px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 20.9795px;
+            line-height: 107%;
+            /* or 22px */
+
+            letter-spacing: 3.22762px;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+        }
+        .link-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 20.9795px;
+            line-height: 28px;
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        .link-lower-panel{
+            margin-top: 20px;
+        }
+        .link-img1{
+            height: 40.34528732299805px;
+            width: 119.42205047607422px;
+            background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+            border-radius: 6.45525px;
+            margin-left: 50px;
+            margin-right: 25px;
+        }
+        .link-img2{
+            height: 40.34528732299805px;
+            width: 43.572914123535156px;
+            background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+            border-radius: 6.45525px;
+        }
+        .card{
+            height: 145.24302673339844px;
+            width: 377.63189697265625px;
+            border-radius: 6.45525px;
+        }
+        .card-count{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 37.1177px;
+            line-height: 34px;
+            /* identical to box height, or 91% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        .number-cards{
+            width: 1640px;
+            height: 150px;
+        }
+        .card-text{
+            margin-bottom: 18px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 22.5934px;
+            line-height: 107%;
+            /* or 24px */
+
+            letter-spacing: 4.84143px;
+
+            color: #FFFFFF;
+
+            opacity: 0.7;
+        }
+        .card-percent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 96px;
+            height: 33px;
+            background: linear-gradient(135deg, #51C81C 0%, #48AF1B 100%);
+            border-radius: 6.45525px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22.5934px;
+            line-height: 23px;
+            color: #FFFFFF;            
+            margin-left: 27px;
+        }
+        .card-under-line{
+            height: 3.227623224258423px;
+            width: 164.60877990722656px;
+        }
+        .card-percent2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 33.89004135131836px;
+            width: 96.82869720458984px;    
+            background: linear-gradient(135deg, #FC381D 0%, #DB2F18 100%);
+            border-radius: 6.45525px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22.5934px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin-left: 34px;
+        }
+        .card1-img{
+            width:39px;
+            height:71px;
+          }
+          .card2-img{
+            width:69px;
+            height:69px;
+          }
+          .card3-img{
+            width:73px;
+            height:63px;
+          }
+          .card4-img{
+            width:66px;
+            height:66px;
+        }
+        .card-under-line2{
+            height: 3.227623224258423px;
+            width: 132.33255004882812px;
+            background: #EA3498;
+            opacity: 0.4;
+            box-shadow: 0px -42.8801px 100.054px 128.64px rgba(234, 52, 151, 0.06);
+        }
+        .card-count-block2{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 37.1177px;
+            line-height: 34px;
+            /* identical to box height, or 91% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        .card-count-block2 img{
+            width: 275px;
+            height: 12px;
+        }
+        #car-information{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20.7028px;
+            line-height: 28px;
+            /* identical to box height */
+
+            letter-spacing: 2.58785px;
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        .card-under-line-selected{
+            position: relative;
+            bottom: 6px;
+            height: 4.841435432434082px;
+            width: 377.63189697265625px;    
+            opacity: 0.7;
+            background: linear-gradient(90deg, rgba(210, 70, 158, 0.83) 0.78%, rgba(75, 213, 207, 0.83) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 4.84143px;
+        }
+        .left-up-bl{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 285.64459228515625px;
+            width: 524.48876953125px;
+            background: rgba(190, 190, 190, 0.1);
+            margin-bottom: 26px;
+            mix-blend-mode: normal;
+            border-radius: 6.45525px;
+        }
+        .left-down-bl-1{
+            height: 285.64459228515625px;
+        }
+        .card-over:hover .card-under-line-selected{
+            display: flex;
+        }
+        .left-down-bl{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 285.64459228515625px;
+            width: 524.48876953125px;     
+            background: rgba(190, 190, 190, 0.1);
+            border: 3.56135px solid rgba(255, 255, 255, 0.04);
+            border-radius: 6.45525px;
+        }
+        #left-up-bl-up-h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 22.5934px;
+            line-height: 107%;
+            /* or 24px */
+
+            letter-spacing: 4.84143px;
+
+            color: #FFFFFF;
+
+            opacity: 0.7;
+        }
+        .left-up-bl-up-active{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30.66242027282715px;
+            width: 75.8491439819336px;
+            background: #EA3498;
+            box-shadow: 0px -42.1019px 98.2379px 126.306px rgba(234, 52, 151, 0.06);
+            border-radius: 6.45525px;
+        }
+        .left-up-bl-up-active h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16.1381px;
+            line-height: 16px;
+            /* or 100% */
+
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+        #binance{
+            margin-left: 32px;
+        }
+        .left-up-bl-check-up-block{
+            height: 58.09721755981445px;
+            width: 71.00770568847656px;    
+        }
+        .left-up-bl-check-up-block-enable{
+            height: 64.09721755981445px;
+            width: 79.00770568847656px;     
+        }
+        .left-up-bl-check-up-block-plus{
+            height: 64.09721755981445px;
+            width: 79.00770568847656px;    
+        }
+        .plus-box{
+            width: 40px;
+            height: 40px;
+        }
+        .left-down-bl-up h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 22.5934px;
+            line-height: 107%;
+            /* or 24px */
+
+            letter-spacing: 4.84143px;
+
+            color: #FFFFFF;
+
+            opacity: 0.7;
+        }
+        #left-down-bl-down-left-h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17.7519px;
+            line-height: 21px;
+            /* or 118% */
+            
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.61381px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        #left-down-bl-down-left-h2{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22.5934px;
+            line-height: 23px;
+            /* identical to box height, or 100% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.9;
+        }
+        #left-down-bl-down-left-h3{
+            width: 106px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17.7519px;
+            line-height: 21px;
+            /* or 118% */
+
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.61381px;
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        #left-down-bl-down-left-h4{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22.5934px;
+            line-height: 23px;
+            /* identical to box height, or 100% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.9;
+        }
+        .left-down-bl-down-right-car{
+        width: 395px;
+        height: 220px;
+        background-size: cover;
+        }
+        .left-down-bl-down-line{
+            width: 530px;
+        }
+        .car{
+            height: 600.337890625px;
+            width: 1081.253662109375px;
+
+        }
+        .car-upper-block{
+            height: 59.71102523803711px;
+            width: 963.4454345703125px;
+        }
+        .car-center-block{
+            margin-top: 30px;
+            width: 963.4454345703125px;
+        }
+        .car-parameter{
+            height: 190.42974853515625px;
+            width: 224.31980895996094px;
+        }
+        .car-parameters{
+            height: 430px;
+        }
+        .car-big{
+            height: 442.721436px;
+            width: 364.721435546875px;
+            background-size: 364.721435546875px;
+        }
+        .car-big-content{
+            height: 512.721436px;
+            width: 335.721436px;
+            margin-left: 16px;
+            background-size: cover;
+        }
+        .car-parameter-title{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17.7519px;
+            line-height: 21px;
+            /* identical to box height, or 118% */
+
+            letter-spacing: 1.61381px;
+
+            color: #FFFFFF;
+
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+        .car-parameter-value-text1{
+            margin-top: 12px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 67.7801px;
+            line-height: 56px;
+            /* identical to box height, or 83% */
+
+
+            color: #FFFFFF;
+        }
+        .car-parameter-value-text2{
+            margin-left: 20px;
+            height: 15px;
+            font-family: "Nippo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 19.3657px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .car-parameter-value-content{
+            margin-bottom: 20px;
+        }
+        .car-control{
+            margin-top: 25px;
+        }
+        .car-control-up{
+            width: 29px;
+            height: 29px;
+        }
+        .car-control-down{
+            width: 29px;
+            height: 29px;
+        }
+        #locked{
+            width: 47px;
+            height: 47px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #locked:hover{
+            width: 47px;
+            height: 47px;
+            background: url(../assets/images/big-car-unlocked.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .car-big-up{
+            width: 330px;
+          }
+          .car-big-center{
+            width: 313px;
+            margin-top: 87px;
+          }
+          .locked-down{
+            margin-top: 155px;
+          }
+          .car-radio-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 19.3657px;
+            line-height: 45px;
+            /* identical to box height, or 233% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.9;
+          }
+          .checkbox{
+            width: 38px;
+            height: 21px;
+          }
+          #button-1 .checkbox:checked + .knobs:before{
+            left: 16px;
+          }
+          #button-1 .knobs:before{
+            width: 20px;
+            height: 20px;
+          }
+          .layer{
+            width: 37px;
+            height: 24px;
+          }
+          .car-img5{
+            width: 40px;
+          }
+          .car-parameter-content{
+            margin: 23px 0 auto 37px;
+          }
+          .car-parameter-value-text3{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 42.708px;
+            line-height: 55px;
+            /* identical to box height, or 100% */
+
+            letter-spacing: 1.05208px;
+
+            color: #FFFFFF;
+          }
+          .car-img1{
+            width: 35px;
+            height: 35px;
+            margin-left: 38px;
+          }
+          .car-tesla-text{
+            margin-left: 15px;
+            margin-right: 16px;
+            width: 119px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17.7519px;
+            line-height: 21px;
+            /* identical to box height, or 118% */
+
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.61381px;
+
+            color: #FFFFFF;
+
+            opacity: 0.9;
+          }
+          .car-tesla-text2{
+            margin-right: 49px;
+            width: 60px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17.7519px;
+            line-height: 18px;
+            /* identical to box height, or 100% */
+            margin-bottom: 10px;
+
+            color: #FFFFFF;
+
+            mix-blend-mode: normal;
+            opacity: 0.4;
+          }
+          .car-slider-limit{
+            margin-left: 6px;
+            margin-right: 22px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 22.5934px;
+            line-height: 107%;
+            /* or 24px */
+            margin-bottom: 10px;
+            text-align: center;
+            letter-spacing: 4.84143px;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+          }
+          #typeinp{
+            margin-bottom: 7px;
+          }
+          .car-img2{
+            height: 43.572914123535156px;
+            width: 133.9463653564453px;
+          }
+          .carSlideText{
+            bottom: -7px;
+          }
+          .arrow-people{
+            width: 80px;
+          }
+          .arrow-under-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20.9795px;
+            line-height: 31px;
+            /* or 146% */
+
+
+            color: #FFFFFF;
+          }
+          input[type=range] {
+            -webkit-appearance: none;
+            width: 317px;
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 6.45525px;
+          }
+          input[type=range]:focus {
+            outline: none;
+          }
+          input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 5px;
+            cursor: pointer;
+            animate: 0.2s;
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 6.45525px;
+          }
+          input[type=range]::-webkit-slider-thumb {
+          
+            width:38px;
+            height:25px;
+            background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+            box-shadow: 0px 0px 52.4558px #E33093;
+            border-radius: 6.45525px;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -7px;
+            
+          }
+          input[type=range]:focus::-webkit-slider-runnable-track {
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 6.45525px;
+          }
+    }
+    @media only screen and (min-width: 2561px) {
+        body{
+            line-height: 1;
+            background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+        header{
+            width: 3234.1335449218777px;
+            height: 233.36581420898457px;
+        }
+        footer{
+            height: 233.36581420898457px;
+            width: 3234.1335449218777px; 
+        }
+        .menu-open{
+            height: 23.26959228515625px;
+            width: 57.11697769165039px;
+
+
+        }
+        #card-prime-img{
+            height: 316.386688px;
+            width: 334.071472px;
+        }
+        
+        .card-prime h1{
+            width: 256px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 30.5483px;
+            line-height: 107%;
+            /* or 33px */
+            
+            letter-spacing: 5.72781px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .smart-sc{
+            height: 68.188484px;
+            width: 370.032898px;
+            background-size: cover;
+        }
+        .smart-b{
+            height: 52.37227249145508px;
+            width: 44.57754898071289px;   
+        }
+        .smart-sc h1 {
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 30.5483px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .money{
+            background-size: cover;
+            height: 91.64299px;
+            width: 523.139954px;
+            margin-left: 50px;
+            
+        }
+        .wallet{
+            height: 36.75346755981445px;
+            width: 41.88655471801758px;
+            
+        }
+        .money h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30.5483px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .string{
+            height: 40.094669342041016px;
+            width: 1.909270167350769px;
+
+            
+        }
+        .user-name{        
+            width: 229px;
+        }
+        .user-name h1 {
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 30.5483px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .user-pr{
+            width: 101px;
+            height: 101px;
+        }
+        .user-q{
+            width: 75px;
+            height: 75px;
+            margin: 13px 78px;
+        
+        }
+        .search{
+            margin-left: 150px;
+            background-size: cover;
+            height: 43.80329895019531px;
+            width: 43.789615631103516px;
+            
+        }
+        .pre-footer h1 {
+            margin-top: 15px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 30.5438px;
+            line-height: 107%;
+            /* identical to box height, or 33px */
+            
+            text-align: center;
+            letter-spacing: 5.72697px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .footer-section{
+            margin-top: 50px;
+            height: 260px;
+        }
+        .left-footer{
+            width: 366.5258178710941px;
+            height: 219.53372192382832px;
+        }
+        .left-footer h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 30.5438px;
+            line-height: 107%;
+            /* or 33px */
+            width: 220px;
+        
+            text-align: center;
+            letter-spacing: 5.72697px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .footer-line{
+            height: 3.817911148071289px;
+            width: 93.538818359375px;    
+            margin-top: 12px;
+        }
+        .left-footer-ic{
+            width: 135px;
+        }
+        .dis-f{
+            height: 54.43362045288086px;
+            width: 49.75712966918945px;
+            
+        }
+        .telega-f{
+            margin-left: 17px;
+            height: 54.43362045288086px;
+            width: 54.078712463378906px;        
+        }
+        .footer-position{
+            height: 219.53372192382812px;
+            width: 297.80224609375px;
+
+            border-radius: 9.544943809509277px;
+            
+            margin-right: 12px;
+        }
+        .line-f{
+            height: 185.17030334472656px;
+            width: 251.9842987060547px;
+
+            
+        }
+        .word-ic{
+            background-size: cover;
+            height: 58.22026443481445px;
+            width: 58.056495666503906px;      
+          }
+          .partner-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;           
+          }
+          .stat-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;   
+          }
+          .info-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;   
+          }
+          .telega-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;   
+          }
+          .promo-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;   
+          }
+          .news-ic{
+            background-size: cover;
+            height: 64.91876220703125px;
+            width: 64.91876220703125px;   
+          }
+          .line-f h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30.5438px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .chatik{
+            width: 585.8025512695318px;
+            height: 219.53366088867207px;  
+            align-items: flex-start;
+        }
+        .footer-down-line{
+            height: 13.68px;
+            width: 302.80224609375px;
+        }
+        .footer-block{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-end;
+        }
+        .chat-ic{
+            width: 65px;
+            height: 65px;
+        }
+        .chatik h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30.5438px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .profile{
+            height: 1441.2855224609375px;
+            width: 771.7715454101562px;
+            border-radius: 9.544937133789062px;
+            margin-top: 53px;
+            margin-left: 35px;
+        }
+        .profile-icon img{
+            height: 328.3458557128906px;
+            width: 327.4300537109375px; 
+        }
+        .profile-icon{
+            height: 328.3458557128906px;
+            width: 327.4300537109375px; 
+            margin: 31px auto;
+        }
+        .profile-id{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 49.6337px;
+            line-height: 46px;
+            /* identical to box height, or 92% */
+            margin: 40px auto 11px auto;
+            text-align: center;
+            letter-spacing: 0.277671px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.9;
+        }
+        .wallet-id{
+            margin-top: 57px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30.5438px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .wallet-id img{
+            height: 29.11208152771007px;
+            width: 33.17996597290052px;           
+        }
+        .arrow-icon{
+            height: 106.9032974243164px;
+            width: 106.60514068603516px; 
+            border-radius: 53px;
+        }
+        .arrow-icon img{
+            width: 47px;
+        }
+        .arrow-icon:hover{
+            background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+            box-shadow: 0px 0px 95.4494px #E33093;
+            border-radius: 53px;
+          }
+        .arrows-menu{
+            margin-top: 100px;
+            width: 680px;
+        }
+        .horizontal-line{
+            height: 164.1729278564453px;
+            width: 1.9036178588867188px;         
+        }
+        .path{
+            margin-top: 25px;
+            height: 70.979551px;
+            width: 23.979551px;
+        
+        }
+        .arrow-people{
+            width: 110px;
+        }
+        .arrow-under-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30.5438px;
+            line-height: 46px;
+            /* identical to box height, or 150% */
+
+            text-align: center;
+            letter-spacing: 0.277671px;
+
+            color: #FFFFFF;
+        }
+        #path-2{
+            margin-top: 25px;
+        }
+        .score-graph{
+            margin-top: 41px;
+            width: 777px;
+            height: 593px;
+            background-position-y: 0px;
+            background-size: cover;
+        }
+        .graph img{
+            margin: 186px 0px 0px 175px;
+        }
+        .graph{
+            background: url(../assets/media/Path.svg);
+            position: relative;
+            bottom: 14px;
+            width: 776px;
+            height: 289px;
+            background-repeat: no-repeat;
+            background-position-x: -40px;
+            background-size: cover;
+        }
+        .profit-block{
+            height: 345px;
+        }
+        .profit{
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: relative;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 30.5438px;
+            line-height: 107%;
+            /* identical to box height, or 33px */
+            
+            text-align: center;
+            letter-spacing: 5.72696px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .button-show{
+            margin-top: 70px;
+        }
+        .button-show-svg{
+            height: 128.994301px;
+            width: 513.336761px;
+
+        }
+        .button-show-plus{
+            bottom: 85px;
+            right: 106px;
+            font-size: 46.5438px;
+        }
+        .r-c-s{
+            margin-top: 53px;
+            width: 2460px;
+            margin-left: 10px;
+            height: 1441.29px;
+        }
+        .dashboard{
+            width: 2430px;
+            height: 175.62693786621094px;
+        }
+        .dashboard-title{
+            font-family: 'Sportypo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 152.719px;
+            line-height: 143px;
+            /* identical to box height, or 94% */
+            
+            
+            color: #FFFFFF;
+            margin-left: 17px;
+            opacity: 0.9;
+            text-shadow: 0px 57.2697px 152.719px rgba(214, 50, 143, 0.47);
+        }
+        .personal-link{
+            height: 175.62693786621094px;
+            width: 557.5247802734375px;        
+            border-radius: 9.54494px;
+        }
+        .personal-link-title{
+            margin-top: 20px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 30.5438px;
+            line-height: 107%;
+            /* identical to box height, or 33px */
+            
+           
+            letter-spacing: 5.72697px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+        }
+        .pesonal-link-content{
+            margin: 30px 18px 15px 17px;
+        }
+        .link-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 378;
+            font-size: 30.5438px;
+            line-height: 41px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .link-purple-line{
+            height: 3.8179445266723633px;
+            width: 192.8061981201172px;
+            box-shadow: 0px -57.2697px 133.629px 171.809px rgba(234, 52, 151, 0.06);
+
+        }
+        .link-lower-panel{
+            margin-top: 40px;
+
+        }
+        .link-img1{
+            height: 59.178653717041016px;
+            width: 177.04078674316406px;        
+            background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+            border-radius: 6.45525px;
+            margin-left: 50px;
+            margin-right: 25px;
+        }
+        .link-img2{
+            height: 59.17659378051758px;
+            width: 64.72079467773438px;     
+            background: linear-gradient(101.44deg, #19E1F2 14.32%, #6CE7DD 98.22%);
+            border-radius: 6.45525px;
+        }
+        .card{
+            height: 215.09417724609375px;
+            width: 557.524658203125px;
+            border-radius: 10.543834686279297px;
+        }
+        .card-content{
+            margin-top: 20px;
+        }
+        .card-count{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 54.8279px;
+            line-height: 51px;
+            /* identical to box height, or 92% */
+            
+            letter-spacing: 0.30673px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .number-cards{
+            width: 2435px;
+            height: 225px;
+        }
+        .card-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 33.7403px;
+            line-height: 107%;
+            /* or 36px */
+            
+            letter-spacing: 6.3263px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.7;
+        }
+        .card-percent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50.60972595214844px;
+            width: 141.2855224609375px;    
+            background: linear-gradient(135deg, #51C81C 0%, #48AF1B 100%);
+            border-radius: 10.5438px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 33.7403px;
+            line-height: 34px;
+            color: #FFFFFF;        
+            margin-left: 27px;
+        }
+        .card-under-line{
+            height: 4.217496395111084px;
+            width: 261.48480224609375px;
+            box-shadow: 0px -63.263px 147.614px 189.789px rgba(234, 52, 151, 0.06);
+            margin-top: 43px;
+            margin-bottom: 23px;
+        }
+        .card-percent2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50.60972595214844px;
+            width: 143.3942413330078px;
+
+            background: linear-gradient(135deg, #FC381D 0%, #DB2F18 100%);
+            border-radius: 10.5438px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 33.7403px;
+            line-height: 34px;
+            /* identical to box height, or 100% */
+            
+            
+            color: #FFFFFF;
+            margin-left: 52px;
+        }
+        .card1-img{
+            height: 103.32776641845703px;
+            width: 55.11553192138672px;     
+          }
+          .card2-img{
+            height: 99.11148071289062px;
+            width: 99.63420104980469px;
+            
+          }
+          .card3-img{
+            height: 90.67495727539062px;
+            width: 105.990478515625px;
+
+            
+          }
+          .card4-img{
+            height: 92.78409576416016px;
+            width: 93.27249908447266px;
+
+            
+        }
+        .card-count2{
+            
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 54.8279px;
+            line-height: 51px;
+            /* identical to box height, or 92% */
+            
+            letter-spacing: 0.30673px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .card4-first{
+            margin-top: 23px;
+        }
+        .card-under-line2{
+            height: 4.217532634735107px;
+            width: 196.11529541015625px;            
+            margin-top: 43px;
+            margin-bottom: 23px;
+            background: #EA3498;
+            opacity: 0.4;
+            box-shadow: 0px -63.263px 147.614px 189.789px rgba(234, 52, 151, 0.06);
+        }
+        .card-count-block2{
+            margin-top: 22px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 37.1177px;
+            line-height: 34px;
+            /* identical to box height, or 91% */
+
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        .card-count-block2 img{
+            width: 435px;
+            height: 20px;
+        }
+        #car-information{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30.5438px;
+            line-height: 41px;
+            letter-spacing: 3.81798px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        .card-under-line-selected{
+            position: relative;
+            bottom: 6px;
+            height: 12.652596473693848px;
+            width: 556.7142944335938px;             
+            opacity: 0.7;
+            background: linear-gradient(90deg, rgba(210, 70, 158, 0.83) 0.78%, rgba(75, 213, 207, 0.83) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 10.5438px;
+        }
+        .left-up-bl{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 422.3818664550781px;
+            width: 771.64453125px;        
+            background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 10.3525px;
+            margin-bottom: 50px;
+           
+        }
+        .left-down-bl-1{
+            height: 422.3818664550781px;
+        }
+        .left-down-bl{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 422.3818664550781px;
+            width: 771.64453125px;        
+            background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 10.3525px;
+        }
+        #left-up-bl-up-h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 33.128px;
+            line-height: 107%;
+            /* or 35px */
+            
+            letter-spacing: 6.2115px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.7;
+        }
+        .left-up-bl-up-active{
+            margin-left: 96px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45.20512390136719px;
+            width: 112.67301177978516px;          
+            background: #EA3498;
+            box-shadow: 0px -62.115px 144.935px 186.345px rgba(234, 52, 151, 0.06);
+            border-radius: 10.3525px;
+        }
+        .left-up-bl-up{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 30px;
+        }
+        .left-up-bl-up-active h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24.846px;
+            line-height: 25px;
+            /* identical to box height, or 100% */
+            
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+        #binance{
+            margin-bottom: 10px;
+            margin-left: 23px;
+        }
+        .left-up-bl-check-up-block{
+            height: 86.9594497680664px;
+            width: 105.29911041259766px;   
+            margin-right: 8px;   
+            border-radius: 10.3525px;  
+        }
+        .left-up-bl-check-up-block-enable{
+            height: 93.95945px;
+            width: 112.29911px; 
+            border-radius: 10.3525px;   
+            margin-right: 8px;
+        }
+        .left-up-bl-check-up-block-plus{
+            height: 93.95945px;
+            width: 112.29911px;  
+            border-radius: 10.3525px; 
+            margin-right: 8px;
+        }
+        .plus-box{
+            width: 60px;
+            height: 60px;
+        }
+        .check-box{
+            width: 50px;
+            height: 50px;
+        }
+        .left-down-bl-up h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 33.128px;
+            line-height: 107%;
+            /* or 35px */
+            
+            letter-spacing: 6.2115px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.7;
+        }
+        #left-down-bl-down-left-h1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26.9165px;
+            line-height: 31px;
+            /* or 115% */
+            
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.92261px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.8;
+        }
+        #left-down-bl-down-left-h2{
+           
+        font-family: 'Nippo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33.128px;
+        line-height: 33px;
+        /* identical to box height, or 100% */
+        height: 49.69133377075195px;
+        width: 138.3347625732422px;
+
+        color: #FFFFFF;
+
+        opacity: 0.9;
+        }
+        #left-down-bl-down-left-h3{
+            width: 156px;
+          
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26.9165px;
+            line-height: 31px;
+            /* or 115% */
+
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.92261px;
+
+            color: #FFFFFF;
+
+            opacity: 0.8;
+        }
+        #left-down-bl-down-left-h4{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 33.128px;
+            line-height: 33px;
+            /* identical to box height, or 100% */
+            height: 49.69133377075195px;
+            width: 138.3347625732422px;
+
+
+            
+            color: #FFFFFF;
+            
+            opacity: 0.9;
+        }
+        .left-down-bl-down-right-car{
+            margin-left: 39px;
+            width: 553px;
+            height: 318px;
+            background-size: cover;
+        }
+        .left-down-bl-down-line{
+            width: 778.802856px;
+            height: 14.493462562561048px;
+            background: #EA3498;
+            opacity: 0.9;
+            box-shadow: 0px -62.115px 144.935px 186.345px rgba(234, 52, 151, 0.06);
+            border-radius: 10.3525px;
+        }
+        .car{
+            height: 884.1033325195312px;
+            width: 1588.400634765625px;
+            margin-left: 70px;
+        }
+        .car-upper-block{
+            margin-top: 35px;
+            height: 88.37438201904297px;
+            width: 1420.3028564453125px;
+            
+        }
+        .car-center-block{
+            margin-top: 38px;
+            width: 1420.3028564453125px;
+        }
+        .car-parameter{
+            height: 281.9564514160156px;
+            width: 330.3519287109375px;           
+        }
+        .car-parameters{
+            height: 630px;
+        }
+        .car-big{
+            height: 713px;
+            width: 658.721436px;
+            background-size: 564.721435546875px;
+            
+        }
+        .car-big-content{
+            height: 656.721436px;
+            width: 552.721436px;
+            margin-left: 57px;
+            background: url(../assets/media/casr4k.png) center center no-repeat;
+        }
+        .car-parameter-title{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27.354px;
+            line-height: 32px;
+            /* identical to box height, or 115% */
+            
+            letter-spacing: 1.95386px;
+            
+            color: #FFFFFF;
+            
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+        .car-parameter-value-text1{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 100.999px;
+            line-height: 84px;
+            /* identical to box height, or 83% */
+            
+            
+            color: #FFFFFF;
+        }
+        .car-parameter-value-text3{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 54.708px;
+            line-height: 55px;
+            /* identical to box height, or 100% */
+            
+            letter-spacing: 1.05208px;
+            
+            color: #FFFFFF;
+        }
+        #car-text2{
+            margin-top: 12px;
+        }
+        .car-img4{
+            height: 205.811401px;
+            width: 8.312456px;
+        }
+        .car-parameter-value-text2{
+            margin-top: 12px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 29.4581px;
+            line-height: 29px;
+            /* identical to box height, or 100% */
+            
+            text-align: center;
+            
+            color: #FFFFFF;
+        }
+        #parameter-text4{
+            margin-left: 38px;
+        }
+        .car-parameter-content{
+            margin: 45px 0 auto 50px;
+        }
+        .car-parameter-value-content{
+            margin-top: 46px;
+        }
+        #percent{
+            margin-left: 57px;
+            margin-top: 49px;
+        }
+        .car-control{
+            margin-top: 71px;
+            margin-right: 56px;
+        }
+        .car-control-up{
+            width: 41px;
+            height: 41px;
+        }
+        .car-control-down{
+            width: 41px;
+            height: 41px;
+        }
+        #locked{
+            width: 69px;
+            height: 69px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #locked:hover{
+            width: 69px;
+            height: 69px;
+            background: url(../assets/images/big-car-unlocked.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .car-big-up{
+            width: 547px;
+          }
+          .car-big-center{
+            width: 481px;
+            margin-bottom: 36px;
+            margin-top: 153px;
+          }
+          .locked-down{
+            margin-top: 155px;
+          }
+          .car-radio-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 29.4581px;
+            line-height: 67px;
+            /* or 229% */
+            
+            letter-spacing: 1.13301px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.9;
+          }
+          .car-parameter-content2{
+            margin: 49px 27px 27px 50px;
+          }
+          .car-parameter-value2{
+            margin-top: 28px;
+          }
+          .checkbox{
+            width: 55px;
+            height: 33px;
+          }
+          #button-1 .checkbox:checked + .knobs:before{
+            left: 21px;
+          }
+          #button-1 .knobs:before{
+            width: 30px;
+            height: 30px;
+          }
+          .layer{
+            width: 54px;
+            height: 33px;
+          }
+          .car-img5{
+            margin-top: 152px;
+            width: 58px;
+          }
+          .car-img1{
+            width: 50px;
+            height: 35px;
+            margin-left: 55px;
+          }
+          .car-tesla-text{
+            margin-top: 18px;
+            margin-left: 22px;
+            margin-right: 18px;
+            width: 176px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27.354px;
+            line-height: 32px;
+            /* identical to box height, or 115% */
+            
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 1.95386px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.9;
+          }
+          .car-tesla-text2{
+            width: 93px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27.354px;
+            line-height: 25px;
+            /* identical to box height, or 92% */
+            
+            
+            color: #FFFFFF;
+            
+            mix-blend-mode: normal;
+            opacity: 0.4;
+          }
+          .car-slider-limit{
+            margin-left: 6px;
+            margin-right: 22px;
+
+            margin-bottom: 24px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 200;
+            font-size: 33.6664px;
+            line-height: 107%;
+            /* or 36px */
+            
+            text-align: center;
+            letter-spacing: 6.31246px;
+            
+            color: #FFFFFF;
+            
+            opacity: 0.6;
+          }
+          #typeinp{ //slider
+            margin-bottom: 7px;
+          }
+          .car-img2{
+            height: 65.22874450683594px;
+            width: 195.140380859375px;         
+          }
+          .carSlideText{
+            bottom: 2px;
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28.9045px;
+            line-height: 107%;
+            /* identical to box height, or 31px */
+
+            text-align: center;
+            letter-spacing: 6.31246px;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
+          }
+          .arrow-people{
+            width: 112px;
+          }
+          .arrow-under-text{
+            font-family: 'Nippo';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30.5438px;
+            line-height: 46px;
+            /* identical to box height, or 150% */
+            
+            text-align: center;
+            letter-spacing: 0.277671px;
+            
+            color: #FFFFFF;
+          }
+          input[type=range] {
+            -webkit-appearance: none;
+            width: 458px;
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 8.41661px;
+          }
+          input[type=range]:focus {
+            outline: none;
+          }
+          input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 5px;
+            cursor: pointer;
+            animate: 0.2s;
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 8.41661px;
+          }
+          input[type=range]::-webkit-slider-thumb {
+          
+            width:53px;
+            height:35px;
+            background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+            box-shadow: 0px 0px 52.4558px #E33093;
+            border-radius: 10.5208px;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -14px;
+            
+          }
+          input[type=range]:focus::-webkit-slider-runnable-track {
+            background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+            mix-blend-mode: normal;
+            border-radius: 10.5208px;
+          }
     }
 }
 
 
 
+/*Mobile styles*/
 @media only screen
 and (max-device-width: 770px) {
     .App-dec{
         display:none;
     }
+    body{
+        background: #0B0C1D url(../assets/mobile-bg.png) center 0 no-repeat;
+        background-size: 100%;
+    }
+    header{
+        width:278px;
+        height:75px;
+        background: rgb(255, 255, 255, 0.05);
+        border-radius: 5px;
+        margin: 19px auto 16px auto;
+    }
+    .mobile-cards-header{
+        width:178px;
+        height:82px;
+    }
+    .mobile-cards-header-content{
+        width:178px;
+        height:82px;
+        background: url(../assets/images/mobile-cards-header.svg) center center no-repeat;
+        background-position-x: 30px;
+        background-position-y: -17px;
+    }
+    .menu-open{
+        margin-left:16px;
+        height:10px;
+    }
+    .right-sec{
+        margin-right:16px;
+    }
+    .user-name{
+        width:43px;
+        height:30px;
+    }
+    .user-pr{
+        width:30px;
+        height:30px;
+        margin:0px;
+    }
+    .user-q{
+        width: 19px;
+        height: 19px;
+        margin: 5px 0px 0px 25px;
+    }
+    .personal-link{
+        width:270px;
+        height:91px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+        border:3.56px solid rgba(255,255,255,0.04);
+        border-radius:4.75px;
+    }
+    .pesonal-link-content{
+        margin: 0;
+        padding: 18px 15px 18px 15px;
+    }
+    .profile{
+        width:270px;
+        height:737px;
+        margin: 0 auto;
+    }
+    .profile-icon{
+        margin: 33px auto 32px auto;
+    }
+    .profile-id{
+        width: 179px;
+        height: 24px;
+        font-size: 26px;
+        line-height: 24px;
+        margin: 0 auto 12px auto;
+    }
+    #profile-id{
+        font-size:30px;
+    }
+    .wallet-id{
+        font-size: 16px;
+        line-height: 22px;
+        height: 22px;
+    }
+    .wallet-id img{
+        margin-top:-2px;
+    }
+    .arrows-menu{
+        width: 227px;
+        height: 92px;
+    }
+    .path{
+        margin-top:20px;
+    }
+    .arrow-icon{
+        width:56px;
+        height:56px;
+    }
+    .horizontal-line{
+        height:86px;
+    }
+    .score-graph{
+        background: url(../assets/images/profile-bg-mobile.svg) no-repeat bottom;
+        width: 270px;
+        height: 334px;
+    }
+    .graph{
+        width:270px;
+        height:136px;
+        background: none;
+    }
+    .graph img{
+        margin:0;
+    }
+    .profile-img1{
+        width:270px;
+        margin:0 auto;
+        position: relative;
+    }
+    .profile-img2{
+        position:absolute;
+        width:16px;
+        height:16px;
+        right: 255px;
+    }
+    .profit{
+        height: 17px;
+        font-size: 16px;
+        line-height: 107%;
+    }
+    .profit-block{
+        height:198px;
+    }
+    .dashboard-title{
+        width: 260px;
+        height: 75px;
+        font-size: 30px;
+        line-height: 75px;
+        margin: 0 auto;
+        margin-bottom:6px;
+    }
+    .number-cards{
+        height:438px;
+        width:264px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .card{
+        width:264px;
+    }
+    .card-under-line-selected{
+        width:264px;
+        height:6px;
+        border-radius: 5px 5px 5px 5px;
+        margin-top: -2px;
+    }
+    .card-text{
+        font-weight: 300;
+        height: 17px;
+        font-size: 16px;
+    }
+    .card-count{
+        height: 24px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+    }
+    .card-percent{
+        width: 67px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .card-percent2{
+        width: 67px;
+        height: 24px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    #car-information{
+        width:264px;
+        height:44px;
+        font-weight: 300;
+        font-size:16px;
+        line-height:22px;
+        letter-spacing: 2px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 19px;
+    }
+    .left-up-bl{
+        width: 278px;
+        height: 254px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    #left-up-bl-up-h1{
+        width: 202px;
+        height: 17px;
+        font-size: 16px;
+        margin-left:24px;
+    }
+    .left-up-bl-up{
+        width: 227px;
+        justify-content: space-between;
+        margin-left: 24px;
+    }
+    .left-up-bl-up-active{
+        width: 54px;
+        height: 22px;
+        opacity: 0.9;
+        margin-right: 3px;
+    }
+    .left-up-bl-up-active h1{
+        height: 12px;
+        font-size: 12px;
+    }
+    .left-up-bl-check-up{
+        width:236px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .left-up-bl-check-up-block-enable{
+        width:50px;
+        height:42px;
+        margin-right:9px;
+        margin-bottom:8px;
+    }
+    .left-up-bl-check-up-block-plus{
+        width:50px;
+        height:42px;
+        margin-right:9px;
+        margin-bottom:8px;
+    }
+    .left-up-bl-check-up-block{
+        width:50px;
+        height:42px;
+        border:0px;
+        margin-right:9px;
+        margin-bottom:8px;
+    }
+    .left-down-bl-1{
+        width:278px;
+        height:204px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    .left-down-bl{
+        width:278px;
+        height:204px;
+        border:0;
+    }
+    .left-down-bl-up h1{
+        height: 17px;
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .left-down-bl-up{
+        margin-top: 20px;
+        margin-left: 24px;
+        margin-bottom: 20px;
+    }
+    #left-down-bl-down-left-h1{
+        font-weight: 400;
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    #left-down-bl-down-left-h2{
+        width: 67px;
+        height: 24px;
+    }
+    .left-down-bl-down{
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 146px;
+    }
+    .left-down-bl-down-right-car{
+        width:173px;
+        height:146px;
+        background-size: 214px;
+        background-position-y: 4px;
+        background-position-x: -30px;
+    }
+    .left-down-bl{
+        justify-content: flex-start;
+    }
+    .left-down-bl-down-line{
+        height: 7px;
+        width: 278px;
+    }
+    .left-footer{
+        width:271px;
+        height:115px;
+        margin: 0 auto;
+        margin-top:30px;
+    }
+    .left-footer h1{
+        width:109px;
+        height:34px;
+        font-weight: 300;
+        font-size:16px;
+    }
+    .footer-line{
+        width:49px;
+    }
+    .chatik{
+        width: 271px;
+        height: 115px;
+    }
+    .r-c{
+        width: 277px;
+        margin: 0 auto;
+        margin-top: 28px;
+    }
+    .chatik h1{
+        margin-left: 24px;
+        width: 138px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .dis-f{
+        margin-top:1px;
+    }
+    .circle-3{
+        background:url(../assets/images/circle-1-mobile-1.png) center center no-repeat;
+        background-size: 165px;
+        width: 165px;
+        height: 165px;
+        bottom: 135px;
+        right: 0px;
+        left: 151px;
+    }
+    .circle-2{
+        background:url(../assets/images/circle-1-mobile.png) center center no-repeat;
+        background-size: 133px;
+        height: 183px;
+        width: 150px;
+        bottom: -5px;
+        right:-25px;
+    }
+    .circle-1{
+        background:url(../assets/images/little-circle.png) center center no-repeat;
+        right: -34px;
+        bottom: -47px;
+    }
+    .drid{
+        background-size: 105px;
+        right: 53px;
+        bottom: 39px;
+        width: 128px;
+        height: 155px;
+    }
+    .line-f{
+        width: 132px;
+        height: 97px;
+        border: 2px solid rgba(255, 255, 255, 0.04);
+        margin: 0px 9px 0px 9px;
+    }
+    .footer-position{
+        width: 154px;
+        height: 115px;
+        margin-right: 9px;
+    }
+    .footer-position:hover{
+        background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+        box-shadow: 0px 0px 50px #E33093;
+        border-radius: 5px;
+    }
+    .c-c-mobile{
+        margin-top: 28px;
+        margin-left: 245px;
+    }
+    .c-c{
+        width: 402px;
+        overflow:auto;
+    }
+    .r-c-obs{
+        width:277px;
+        displaY: block;
+    }
+    .chatik{
+        display:block;
+    }
+    .chat-ic{
+        margin:29px auto 14px 80px;
+    }
+    @media only screen
+    and (max-device-width: 541px) {
+        .c-c-mobile{
+            margin-left: 131px;
+        }
+    }
+    @media only screen
+    and (max-device-width: 415px) {
+        .c-c-mobile{
+            margin-left:68px;
+        }
+        .c-c{
+            width:328px;
+        }
+        .profile-img2{
+            right:77px;
+        }
+    }
+    @media only screen
+    and (max-device-width: 394px) {
+        .c-c-mobile{
+            margin-left:59px;
+        }
+        .profile-img2{
+            right:68px;
+        }
+    }
+    @media only screen
+    and (max-device-width: 391px) {
+        .c-c-mobile{
+            margin-left:56px;
+        }
+        .profile-img2{
+            right:66px;
+        }
+    }
+    @media only screen
+    and (max-device-width: 376px) {
+        .c-c-mobile{
+            margin-left:49px;
+        }
+        .c-c{
+            width:325px;
+        }
+        .profile-img2{
+            right:60px;
+        }
+    } 
+    @media only screen
+    and (max-device-width: 361px) {
+        .c-c-mobile{
+            margin-left:42px;
+        }
+        .c-c{
+            width: 317px;
+        }
+        .r-c{
+            width:278px;
+        }
+        .profile-img2{
+            right:51px;
+        }
+        
+    }
+    @media only screen
+    and (max-device-width: 281px) {
+        .c-c-mobile{
+            margin-left: 0px;
+        }
+        .c-c{
+            width:277px;
+        }
+        .profile-img2{
+            right:11px;
+        }
+    }
+    .car{
+        width: 278px;
+        height: 723px;
+        margin: 0 auto;
+    }
+    .car-upper-block{
+        width:233px;
+        height:132px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .upper-block-1{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:233px;
+        margin-top:17px;
+    }
+    .car-img1{
+        margin-left:23px;
+    }
+    .car-img2{
+        margin:0;
+        margin-top:7px;
+    }
+    .car-img4{
+        margin-top:31px;
+    }
+    .car-img5{
+        margin-top:66px;
+        margin-right:9px;
+    }
+    .car-tesla-text{
+        height: 15px;
+        width: 94px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .car-tesla-text2{
+        width: 50px;
+        height: 12px;
+        font-size: 13px;
+        line-height: 12px;
+    }
+    .car-slider-limit{
+        margin:0;
+    }
+    .mobile-slider{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:233px;
+        margin-left: 34px;
+        margin-top:11px;
+    }
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 159px;
+        background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+        mix-blend-mode: normal;
+        border-radius: 5.24558px;
+      }
+      input[type=range]:focus {
+        outline: none;
+      }
+      input[type=range]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 5px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+        mix-blend-mode: normal;
+        border-radius: 5.24558px;
+      }
+      input[type=range]::-webkit-slider-thumb {
+      
+        width:26px;
+        height:17px;
+        background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
+        box-shadow: 0px 0px 52.4558px #E33093;
+        border-radius: 5.24558px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -7px;
+        
+      }
+      input[type=range]:focus::-webkit-slider-runnable-track {
+        background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
+        mix-blend-mode: normal;
+        border-radius: 5.24558px;
+      }
+
+      .car-parameter{
+        width:106px;
+        height:134px;
+      }
+      .car-parameter-title{
+        height: 16px;
+        width: 77px;
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 23px;
+        margin-left: 15px;
+        margin-bottom: 13px;
+      }
+      .car-parameter-value-content{
+        margin-top:-13px;
+      }
+      .car-parameter-value-text1{
+        width:47px;
+        height:40px;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 40px;
+        margin-left: 13px;
+      }
+      .car-parameter-value-text2{
+        width:14px;
+        height:14px;
+        font-weight: 400;
+        font-size:14px;
+        line-height:14px;
+      }
+      .car-control-up *{
+        width:19px;
+      }
+      .car-control-down *{
+        width:19px;
+      }
+      .car-parameter-value{
+        flex-direction: column;
+      }
+      .car-control{
+        margin-right: 0;
+        transform: rotate(90deg);
+        height: 48px;
+        margin: 0 auto;
+      }
+      .car-control-up{
+        margin:0;
+        margin-bottom:8px;
+      }
+      .car-radio{
+        justify-content: space-between;
+        width:77px;
+        margin:0 auto;
+        margin-bottom: -3px;
+      }
+      .car-radio-text{
+        font-size: 10px;
+        line-height: 32px;
+      }
+      .button{
+        margin-top:3px;
+      }
+      .car-parameters{
+        height: 286px;
+      }
+      .car-parameters-all{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 233px;
+        margin-bottom: 10px;
+      }
+      .car-parameter-content{
+        margin:0px;
+      }
+      #car-value-content{
+        margin-left:15px;
+        margin-bottom: 15px;
+      }
+      #parameter-4{
+        width:50px;
+      }
+      .car-big{
+        width: 233px;
+        background-size: 169px;
+        height: 250px;
+      }
+      .car-big-content{
+        background: url(../assets/images/big-car-mobile.png) center center no-repeat;
+        width: 233px;
+        height:250px;
+        margin: 0 auto;
+        background-size: 117px;
+        background-position-y: 18px;
+      }
+      .car-big-up{
+        width:233px;
+      }
+      #locked{
+        height: 21px;
+        width: 21px;
+        background-size: 21px;
+      }
+      #locked:hover{
+        background-size:cover;
+      }
+      .car-big-center{
+        width: 150px;
+        margin-top: 50px;
+      }
+
 }

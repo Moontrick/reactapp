@@ -29,6 +29,7 @@ import { ReactComponent as Logo2 } from '../assets/arror-up.svg'
 import { ReactComponent as Logo3 } from '../assets/arror-down.svg'
 import { ReactComponent as Logo4 } from '../assets/t-t-t.svg'
 import { ReactComponent as Logo5 } from '../assets/images/Path2.svg'
+import { ReactComponent as Logo6 } from '../assets/images/button-show.svg'
 import {RangeStepInput} from 'react-range-step-input';
 import { customStyles1} from '../data';
 
@@ -37,66 +38,153 @@ import { customStyles1} from '../data';
 const Decstop = (props) => {
     const [styleFilters, setStyle] = useState('');
 
+    const screenWidth = window.innerWidth;
+    const screenHeight = window.innerHeight;
+
     const [carSlide, setCount] = useState('');
     function handleNextButtonClick(e){
         if(e.target.value == 0) {
+            if(screenWidth > 2560){
+                setStyle("441px")
+            } else  if(screenWidth > 1920){
+                setStyle("304px")
+            } else{
 
-                setStyle("228px")
+                setStyle("226px")
+            }
         }else if(e.target.value == 1) {
+            if(screenWidth > 2560){
+                setStyle("403px")
+            } else  if(screenWidth > 1920){
+                setStyle("279px")
+            } else{
 
-                setStyle("209px")
+                setStyle("207px")
+            }
 
             }
             else if(e.target.value == 2) {
-                setStyle("192px")
+                if(screenWidth > 2560){
+                    setStyle("374px")
+                } else if(screenWidth > 1920){
+                    setStyle("255px")
+                } else{
+                setStyle("190px")
+            }
 
             }
             else if(e.target.value == 3) {
-                setStyle("175px")
+                if(screenWidth > 2560){
+                    setStyle("339px")
+                } else  if(screenWidth > 1920){
+                    setStyle("234px")
+                } else{
+                setStyle("173px")
+            }
 
             }
             else if(e.target.value == 4) {
-                setStyle("157px")
+                if(screenWidth > 2560){
+                    setStyle("304px")
+                } else  if(screenWidth > 1920){
+                    setStyle("210px")
+                } else{
+                setStyle("155px")
+            }
 
             }
             else if(e.target.value == 5) {
-                setStyle("140px")
+                if(screenWidth > 2560){
+                    setStyle("272px")
+                } else if(screenWidth > 1920){
+                    setStyle("188px")
+                } else{
+                setStyle("138px")
+            }
 
             }
             else if(e.target.value == 6) {
-                setStyle("124px")
+                if(screenWidth > 2560){
+                    setStyle("239px")
+                } else 
+                if(screenWidth > 1920){
+                    setStyle("164px")
+                } else{
+                setStyle("122px")
+            }
 
             }
             else if(e.target.value == 7) {
-                setStyle("105px")
+                if(screenWidth > 2560){
+                    setStyle("203px")
+                } else if(screenWidth > 1920){
+                    setStyle("140px")
+                } else{
+                setStyle("104px")
+            }
 
             }
             else if(e.target.value == 8) {
-                setStyle("89px")
+                if(screenWidth > 2560){
+                    setStyle("169px")
+                } else if(screenWidth > 1920){
+                    setStyle("119px")
+                } else{
+                setStyle("88px")
+            }
 
             }
             else if(e.target.value == 9) {
-                setStyle("71px")
+                if(screenWidth > 2560){
+                    setStyle("137px")
+                } else  if(screenWidth > 1920){
+                    setStyle("96px")
+                } else{
+                setStyle("70px")
+            }
 
             }
             else if(e.target.value == 10) {
-                setStyle("56px")
-  
+                if(screenWidth > 2560){
+                    setStyle("111px")
+                } else if(screenWidth > 1920){
+                    setStyle("73px")
+                } else{
+                setStyle("55px")
+            }
             }
             else if(e.target.value == 11) {
-                setStyle("36px")
-           
+                if(screenWidth > 2560){
+                    setStyle("72px")
+                } else  if(screenWidth > 1920){
+                    setStyle("49px")
+                } else{
+                setStyle("37px")
+            }
+
             }
             else if(e.target.value == 12) {
-                setStyle("21px")
+                if(screenWidth > 2560){
+                    setStyle("41px")
+                } else  if(screenWidth > 1920){
+                    setStyle("27px")
+                } else{
+                setStyle("22px")
+                }
             
             }
-          
+
         setCount(e.target.value);
     }
     useEffect(() => {
         setCount(6);
-        setStyle(124)
+        if(screenWidth > 2560){
+            setStyle("239px")
+        } else if(screenWidth > 1920){
+            setStyle("164px")
+        } else{
+            setStyle("122px")
+        }
     }, []);
 
     return (
@@ -105,7 +193,7 @@ const Decstop = (props) => {
                 <div className='left-sec'>
                     <div className="menu-open"/>
                     <div className="card-prime">
-                        <img src= {cardsLogo}/>
+                        <img id="card-prime-img" src= {cardsLogo}/>
                         <h1>New era of crypto games</h1>
                     </div>
                 </div>
@@ -167,7 +255,7 @@ const Decstop = (props) => {
                             103k
                         </div>
                     </div>
-                    <Logo5 className="path" style={{ transform: "rotate(180deg)" }}/>
+                    <Logo5 className="path" id= "path-2" style={{ transform: "rotate(180deg)" }}/>
                 </div>
                 <div className='score-graph'>
                     <div className='graph'>
@@ -183,7 +271,8 @@ const Decstop = (props) => {
                             <div className="id3">56.054 BNB</div>
                         </div>
                         <div className='button-show'>
-                            <img src={buttonShow}></img>
+                            <Logo6 className="button-show-svg"/>
+                            <h1 className="button-show-plus">+</h1>
                         </div>
                     </div>
                 </div>
@@ -210,26 +299,29 @@ const Decstop = (props) => {
                     </div>
                 </div>
                 <div className='number-cards'>
-                    <div className='card'>
-                        <div className='card-all'>
-                            <div className = "card-content">
-                                <div className='card-text'>
-                                    Money in project
-                                </div>
-                                <div className='card-under-line'></div>
-                                <div className='card-count-block'>
-                                    <div className="card-count">
-                                        <div className="id2">$129,850</div>
-                                        <div className="id1">$129,850</div>
-                                        <div className="id3">$129,850</div>
+                    <div className='card-over'>
+                        <div className='card'>
+                            <div className='card-all'>
+                                <div className = "card-content">
+                                    <div className='card-text'>
+                                        Money in project
                                     </div>
-                                    <div className = "card-percent">+15%</div>
-                                </div>                        
+                                    <div className='card-under-line'></div>
+                                    <div className='card-count-block'>
+                                        <div className="card-count">
+                                            <div className="id2">$129,850</div>
+                                            <div className="id1">$129,850</div>
+                                            <div className="id3">$129,850</div>
+                                        </div>
+                                        <div className = "card-percent">+15%</div>
+                                    </div>                        
+                                </div>
+                                <img className = "card1-img" src = {cardDollar}></img>
                             </div>
-                            <img className = "card1-img" src = {cardDollar}></img>
                         </div>
-                        <div className='card-under-line-selected'></div>
-                    </div>
+                    <div className='card-under-line-selected'></div>
+                </div>
+                <div className='card-over'>
                     <div className='card'>
                         <div className='card-all'>
                             <div className = "card-content">
@@ -247,8 +339,11 @@ const Decstop = (props) => {
                             </div>
                             <img className='card2-img' src = {cardTools}></img>
                         </div>
-                        <div className='card-under-line-selected'></div>
+
                     </div>
+                    <div className='card-under-line-selected'></div>
+                </div>
+                <div className='card-over'>
                     <div className='card'>
                         <div className='card-all'>
                             <div className = "card-content">
@@ -267,8 +362,10 @@ const Decstop = (props) => {
                             </div>
                             <img className = "card3-img" src = {cardTrade}></img>
                         </div>
-                        <div className='card-under-line-selected'></div>
                     </div>
+                    <div className='card-under-line-selected'></div>
+                </div>
+                <div className='card-over'>
                     <div className='card'>
                         <div className='card-all' style = {{flexDirection:"column"}}>
                             <div className = "card4-content">
@@ -285,9 +382,10 @@ const Decstop = (props) => {
                                     <img src={cardProgress}></img>
                             </div>  
                         </div>
-                        <div className='card-under-line-selected'></div>
-                    </div>
 
+                    </div>
+                    <div className='card-under-line-selected'></div>
+                </div>
                 </div>
                 <h1 id='car-information'>Here all your cars and main information</h1>
                 <div className='down-c-s'>
@@ -299,7 +397,7 @@ const Decstop = (props) => {
                                     <h1> Active</h1>
                                 </div>
                             </div>
-                            <div style={{marginLeft: "15px"}} className="card-count">
+                            <div id="binance" className="card-count">
                                 <div className="id2">$129,850</div>
                                 <div className="id1">$129,850</div>
                                 <div className="id3">$129,850</div>
@@ -380,7 +478,7 @@ const Decstop = (props) => {
                                     <div className = "car-parameter-value">
                                         <div className = "car-parameter-value-content">
                                             <div className='car-parameter-value-text1'>20</div>
-                                            <div className='car-parameter-value-text2'>%</div>
+                                            <div className='car-parameter-value-text2' id="percent">ºC</div>
                                         </div>
                                         <div className='car-control'>
                                             <Logo2 className='car-control-up'/>
@@ -423,7 +521,7 @@ const Decstop = (props) => {
                                     <div id = "locked"/>
                                 </div>
                                 <div className = "car-big-up">
-                                    <div id = "locked" style={{marginTop: "88px"}}/>
+                                    <div id = "locked" className="locked-down"/>
                                 </div>
                             </div>
                         </div>
@@ -456,11 +554,11 @@ const Decstop = (props) => {
                                             <div className='car-2-lines'>
                                                 <div className = "car-parameter-value-content">
                                                     <div id = "parameter-text3" className='car-parameter-value-text3'>151</div>
-                                                    <div className='car-parameter-value-text2'>km</div>
+                                                    <div id = "parameter-text4" className='car-parameter-value-text2'>km</div>
                                                 </div>
                                                 <div className = "car-parameter-value-content">
                                                     <div id = "parameter-text3" className='car-parameter-value-text3'>1.4</div>
-                                                    <div className='car-parameter-value-text2'>h</div>
+                                                    <div id = "parameter-text4" className='car-parameter-value-text2'>h</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -496,48 +594,69 @@ const Decstop = (props) => {
                         </div>
                     </div>
                     <div className='c-c'>
-                        <div className='footer-position'>
-                            <div className='line-f'>
-                                <div className='word-ic'/>
-                                <h1> Dashboard</h1> 
+                        <div className="footer-block">
+                            <div className='footer-position'>
+                                <div className='line-f'>
+                                    <div className='word-ic'/>
+                                    <h1> Dashboard</h1> 
+                                </div>
                             </div>
-                        </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='stat-ic'/>
                                 <h1> Stats</h1> 
                             </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='partner-ic'/>
                                 <h1> Partner bonus</h1> 
                             </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='info-ic'/>
                                 <h1> Info</h1> 
                             </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='telega-ic'/>
                                 <h1> Telegram bot</h1> 
                             </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='promo-ic'/>
                                 <h1> Promo</h1> 
                             </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
+                    <div className="footer-block">
                         <div className='footer-position'>
                             <div className='line-f'>
                                 <div className='news-ic'/>
                                 <h1> News</h1> 
-                            </div>
+                               </div>
                         </div>
+                        <div className="footer-down-line"/>
+                    </div>
                     </div>
                     <div className='r-c'>
                         <div className='r-c-obs'>
@@ -556,6 +675,8 @@ const Decstop = (props) => {
                     </div>
                 </div>
             </footer>
+
+
         </div>
     )
 }

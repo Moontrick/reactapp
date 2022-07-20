@@ -26,7 +26,6 @@ header{
   height: 718.67px;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-evenly;
 }
 .center-sec{
   display: flex;
@@ -199,6 +198,15 @@ footer{
   justify-content: center;
   margin-right: 4px;
 }
+.footer-down-line{
+  display: none;
+  width: 148.02px;
+  height: 6.6px;
+  background: #EA3498;
+  box-shadow: 0px -30.9701px 72.2636px 92.9104px rgb(234 52 151 / 6%);
+  border-radius: 4.75905px; 
+  position: absolute;
+}
 .l-c{
   margin-right: 22px;
 }
@@ -207,10 +215,22 @@ footer{
   display: flex;
   align-items: center;
 }
+.footer-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
 .footer-position:hover{
   background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
   box-shadow: 0px 0px 95.4494px #E33093;
   border-radius: 9.54494px;
+}
+.footer-block:hover .footer-down-line{
+display: flex;
+}
+.footer-block:hover .line-f{
+  border: 0px solid rgba(255, 255, 255, 0.04);
 }
 .left-footer{
   height: 109.46px;
@@ -531,8 +551,35 @@ footer{
   margin-top:18px;
   text-align:center;
 }
+.button-show-plus{
+  position: relative;
+  bottom: 52px;
+  right: 57px;
+  font-family: "Nippo";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 26.5438px;
+  line-height: 30px;
+  transform: rotate(-24.97deg);
+  text-align: center;
+  letter-spacing: 0.954494px;
+  color: #1A224B;
+}
 
+.button-show:hover .button-show-plus{
+  animation: rotate 5s linear 0s infinite; 
+}
+
+ @keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  }
 .number-cards{
+  height: 107px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -552,9 +599,9 @@ footer{
   justify-content: space-between;
   margin:11px 11px 18px 21px;
 }
-.card-all img{
-  opacity: 0.2;
-}
+// .card-all img{
+//   opacity: 0.2;
+// }
 .card1-img{
   width:27px;
   height:51px;
@@ -712,7 +759,9 @@ footer{
   opacity: 0.7;
   border-radius: 5px 5px 0px 0px;
 }
-
+#binance{
+  margin-left: 15px;
+}
 .left-up-bl{
   display: flex;
   flex-direction: column;
@@ -1181,6 +1230,7 @@ footer{
     width: 97px;
     height: 32px;
     margin-left:35px;
+    margin-right: 15px;
   }
   .car-img3{
     width:20px;
@@ -1408,11 +1458,17 @@ footer{
   #locked:hover{
     background: url(../assets/images/big-car-unlocked.svg);
   }
+  .locked-down{
+    margin-top: 88px;
+  }
 .down-c-s{
   display: flex;
 }
-
-.card:hover .card-under-line-selected{
+.card-over{
+  display: flex;
+  flex-direction: column;
+}
+.card-over:hover .card-under-line-selected{
   display: flex;
 }
 .car-control{
