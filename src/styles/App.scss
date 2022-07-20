@@ -1122,8 +1122,8 @@ display: flex;
   height: 147px;
   z-index: 5;
   position: relative;
-  bottom: 50px;
-  right: 70px;
+  bottom: 40px;
+  right: 75px;
 }
 .circle-1{
   background: url(../assets/circle-d-1.png)center 0 no-repeat;
@@ -1131,26 +1131,28 @@ display: flex;
   height: 114px;
   z-index: 4;
   position: relative;
-  bottom: -55px;
-  right: -45px;
+  bottom: -38px;
+  right: -30px;
 }
 .circle-2{
-  background: url(../assets/circle-d-2.png)center 0 no-repeat;
-  width: 182px;
-  height: 167px;
+  background: url(../assets/circle-d-3.png)center 0 no-repeat;
+  width: 166px;
+  background-size: cover;
+  height: 151px;
   z-index: 3;
   position: relative;
-  bottom: -14px;
-  right: -44px;
+  bottom: -8px;
+  right: -37px;
 }
 .circle-3{
   background: url(../assets/circle-d-3.png)center 0 no-repeat;
-  width: 182px;
-  height: 183px;
+  width: 166px;
+  background-size: cover;
+  height: 166px;
   z-index: 2;
   position: relative;
-  bottom: 10px;
-  right: 180px;
+  bottom: 3px;
+  right: 165px;
 }
 .car{
   margin-left: 20px;

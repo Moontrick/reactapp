@@ -2,12 +2,18 @@
     .App-mob{
         display:none;
     }
+    @media only screen and (min-width: 1441px) {
+        body{
+            overflow: hidden;
+        }
+    }
     @media only screen and (min-width: 1921px) {
         body{
             line-height: 1;
             background: #000000 url(../assets/media/bg2k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            overflow: hidden;
         }
         header{
         height: 158.15px;
@@ -212,6 +218,7 @@
         }
         .chatik{
             height: 148px;
+            align-items: flex-start;
             width: 360px;
         }
         .chat-ic{
@@ -1014,6 +1021,42 @@
             mix-blend-mode: normal;
             border-radius: 6.45525px;
           }
+          .circle-1{
+            background: url(../assets/circle-d-1.png)center 0 no-repeat;
+            width: 115px;
+            height: 114px;
+            z-index: 2;
+            position: relative;
+            bottom: -55px;
+            right: -40px;
+          }
+          .circle-2{
+            background: url(../assets/circle-d-2.png)center 0 no-repeat;
+            width: 185px;
+            height: 177px;
+            z-index: 3;
+            position: relative;
+            bottom: -15px;
+            right: -35px;
+          }
+          .circle-3{
+            background: url(../assets/circle-d-3.png)center 0 no-repeat;
+            width: 185px;
+            height: 177px;
+            z-index: 2;
+            position: relative;
+            bottom: 15px;
+            right: 190px;
+          }
+          .drid{
+            width: 150px;
+            height: 185px;
+            background-size: cover;
+            z-index: 5;
+            position: relative;
+            bottom: 65px;
+            right: 98px;
+          }
     }
     @media only screen and (min-width: 2561px) {
         body{
@@ -1021,6 +1064,7 @@
             background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            overflow: hidden;
         }
         header{
             width: 3234.1335449218777px;
@@ -1156,7 +1200,7 @@
             opacity: 0.6;
         }
         .footer-section{
-            margin-top: 50px;
+            margin-top: 30px;
             height: 260px;
         }
         .left-footer{
@@ -2199,6 +2243,43 @@
             background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
             mix-blend-mode: normal;
             border-radius: 10.5208px;
+          }
+
+          .circle-1{
+            background: url(../assets/media/circle-d-1-4k.png)center 0 no-repeat;
+            width: 176px;
+            height: 175px;
+            z-index: 4;
+            position: relative;
+            bottom: -55px;
+            right: -63px;
+          }
+          .circle-2{
+            background: url(../assets/media/circle-d-2-4k.png)center 0 no-repeat;
+            width: 275px;
+            height: 225px;
+            z-index: 3;
+            position: relative;
+            bottom: -39px;
+            right: -48px;
+          }
+          .circle-3{
+            background: url(../assets/media/circle-d-3-4k.png)center 0 no-repeat;
+            width: 275px;
+            height: 275px;
+            z-index: 2;
+            position: relative;
+            bottom: 16px;
+            right: 280px;
+          }
+          .drid{
+            width: 219px;
+            height: 264px;
+            background-size: cover;
+            z-index: 5;
+            position: relative;
+            bottom: 100px;
+            right: 125px;
           }
     }
 }
