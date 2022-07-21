@@ -34,9 +34,13 @@ import {RangeStepInput} from 'react-range-step-input';
 import { customStyles1} from '../data';
 
 
-
 const Decstop = (props) => {
     const [styleFilters, setStyle] = useState('');
+
+    function getback(){
+        var div = document.getElementById('typeinp');
+        div.className = 'new5'; // задать класс
+    }
 
     const screenWidth = window.innerWidth;
     const screenHeight = window.innerHeight;
@@ -44,147 +48,71 @@ const Decstop = (props) => {
     const [carSlide, setCount] = useState('');
     function handleNextButtonClick(e){
         if(e.target.value == 0) {
-            if(screenWidth > 2560){
-                setStyle("441px")
-            } else  if(screenWidth > 1920){
-                setStyle("304px")
-            } else{
-
-                setStyle("226px")
-            }
+            var div = document.getElementById('typeinp');
+            div.className = 'new0'; // задать класс
         }else if(e.target.value == 1) {
-            if(screenWidth > 2560){
-                setStyle("403px")
-            } else  if(screenWidth > 1920){
-                setStyle("279px")
-            } else{
-
-                setStyle("207px")
-            }
-
+            var div = document.getElementById('typeinp');
+            div.className = 'new1'; // задать класс
             }
             else if(e.target.value == 2) {
-                if(screenWidth > 2560){
-                    setStyle("374px")
-                } else if(screenWidth > 1920){
-                    setStyle("255px")
-                } else{
-                setStyle("190px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new2'; // задать класс
 
             }
             else if(e.target.value == 3) {
-                if(screenWidth > 2560){
-                    setStyle("339px")
-                } else  if(screenWidth > 1920){
-                    setStyle("234px")
-                } else{
-                setStyle("173px")
-            }
-
+                var div = document.getElementById('typeinp');
+                div.className = 'new3'; // задать класс
             }
             else if(e.target.value == 4) {
-                if(screenWidth > 2560){
-                    setStyle("304px")
-                } else  if(screenWidth > 1920){
-                    setStyle("210px")
-                } else{
-                setStyle("155px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new4'; // задать класс
 
             }
             else if(e.target.value == 5) {
-                if(screenWidth > 2560){
-                    setStyle("272px")
-                } else if(screenWidth > 1920){
-                    setStyle("188px")
-                } else{
-                setStyle("138px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new5'; // задать класс
 
             }
             else if(e.target.value == 6) {
-                if(screenWidth > 2560){
-                    setStyle("239px")
-                } else 
-                if(screenWidth > 1920){
-                    setStyle("164px")
-                } else{
-                setStyle("122px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new6'; // задать класс
 
             }
             else if(e.target.value == 7) {
-                if(screenWidth > 2560){
-                    setStyle("203px")
-                } else if(screenWidth > 1920){
-                    setStyle("140px")
-                } else{
-                setStyle("104px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new7'; // задать класс
 
             }
             else if(e.target.value == 8) {
-                if(screenWidth > 2560){
-                    setStyle("169px")
-                } else if(screenWidth > 1920){
-                    setStyle("119px")
-                } else{
-                setStyle("88px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new8'; // задать класс
 
             }
             else if(e.target.value == 9) {
-                if(screenWidth > 2560){
-                    setStyle("137px")
-                } else  if(screenWidth > 1920){
-                    setStyle("96px")
-                } else{
-                setStyle("70px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new9'; // задать класс
 
             }
             else if(e.target.value == 10) {
-                if(screenWidth > 2560){
-                    setStyle("111px")
-                } else if(screenWidth > 1920){
-                    setStyle("73px")
-                } else{
-                setStyle("55px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new10'; // задать класс
             }
             else if(e.target.value == 11) {
-                if(screenWidth > 2560){
-                    setStyle("72px")
-                } else  if(screenWidth > 1920){
-                    setStyle("49px")
-                } else{
-                setStyle("37px")
-            }
+                var div = document.getElementById('typeinp');
+                div.className = 'new11'; // задать класс
 
             }
             else if(e.target.value == 12) {
-                if(screenWidth > 2560){
-                    setStyle("41px")
-                } else  if(screenWidth > 1920){
-                    setStyle("27px")
-                } else{
-                setStyle("22px")
-                }
-            
+                var div = document.getElementById('typeinp');
+                div.className = 'new12'; // задать класс
             }
 
         setCount(e.target.value);
     }
     useEffect(() => {
         setCount(6);
-        if(screenWidth > 2560){
-            setStyle("239px")
-        } else if(screenWidth > 1920){
-            setStyle("164px")
-        } else{
-            setStyle("122px")
-        }
+        var div = document.getElementById('typeinp');
+        div.className = 'new6'; // задать класс
     }, []);
 
     return (
@@ -278,6 +206,7 @@ const Decstop = (props) => {
                 </div>
             </div>
             <div className='r-c-s'>
+         
             <div className='dashboard'>
                     <div className='dashboard-title'>
                         <div className="id2">Dashboard</div>
@@ -414,8 +343,6 @@ const Decstop = (props) => {
                                     <div className='left-up-bl-check-up-block'/>
                                     <div className='left-up-bl-check-up-block'/>
                                     <div className='left-up-bl-check-up-block'/>
-                                </div>
-                                <div className='left-up-bl-check-down'>
                                     <div className='left-up-bl-check-up-block'/>
                                     <div className='left-up-bl-check-up-block'/>
                                     <div className='left-up-bl-check-up-block'/>
@@ -457,16 +384,16 @@ const Decstop = (props) => {
                             </div>
                         </div> */}
                             <input 
+                                className="new6"
                                 id="typeinp" 
                                 type="range" 
                                 min="0" max="12" 
                                 step="1"
                                 value={carSlide}
                                 onChange={handleNextButtonClick}
-                                
                             />
-                            <h1 className="carSlideText" style = {{right: styleFilters}} >{carSlide}</h1>
-                            
+                            {/* <h1 className="carSlideText" style = {{right: styleFilters}} >{carSlide}</h1> */}
+                           
                         <div className = "car-slider-limit">12</div>
                         <img className='car-img2' src = {carUpgrade}></img>
                     </div>
@@ -664,18 +591,17 @@ const Decstop = (props) => {
                                 <Logo4 className='chat-ic'/>
                                 <h1> Chat with us</h1>                           
                             </div>
-                            <div className='circle-3'>
-                                <div className='circle-2'>
-                                    <div className='circle-1'>
-                                        <div className='drid'/>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </footer>
-
+            {/* <div className='circle-3'>
+                <div className='circle-2'>
+                    <div className='circle-1'>
+                        <div className='drid'/>
+                    </div>
+                </div>
+            </div> */}
 
         </div>
     )

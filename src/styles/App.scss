@@ -15,6 +15,8 @@ header{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  width: 1620px;
 }
 .left-sec{
   display: flex;
@@ -211,7 +213,6 @@ footer{
   margin-right: 22px;
 }
 .r-c{
-  margin-left: 16px;
   display: flex;
   align-items: center;
 }
@@ -354,6 +355,7 @@ display: flex;
   height: 30px;
 }
 .chatik{
+  align-items: start;
   width: 275px;
   height: 111px;
   background: rgba(190 190 190 / 10%);
@@ -813,10 +815,8 @@ display: flex;
   text-align: center;
   color: #FFFFFF;
 }
-.left-up-bl-check-up{
-  margin-bottom: 8.26px;
-}
 .left-up-bl-check-up-block{
+  margin-bottom: 8px;
   width: 51.65px;
   height:  43.36px;
   background: rgba(190 190 190 / 10%);
@@ -825,7 +825,7 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 .left-up-bl-check{
   display: flex;
@@ -835,13 +835,16 @@ display: flex;
 }
 .left-up-bl-check-up{
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
 }
 .left-up-bl-check-down{
   display: flex;
+
 }
 
 .left-up-bl-check-up-block-enable{
-  width: 59px;
+  width: 60px;
   height:  51px;
   background: linear-gradient(121.47deg, rgba(210 70 158 / 50%) 0%, rgba(75 213 207 / 50%) 106.69% ) ;
   border-radius: 5.16169px;
@@ -858,8 +861,8 @@ display: flex;
 }
 
 .left-up-bl-check-up-block-plus{
-  width: 59px;
-  height:  51px;
+  width: 60px;
+  height: 51px;
   background: linear-gradient(134.2deg, rgba(234 52 152 / 90%) -2.74%, rgba(166 7 94 / 90%) 95.67%);
   border-radius: 5.16169px;
   display: flex;
@@ -896,7 +899,7 @@ display: flex;
   justify-content: space-evenly;
   width: 385px;
   height: 211px;
-  background: rgba(190 190 190 / 10%);
+  background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
   border: 3.56135px solid rgba(255, 255, 255, 0.04);
   border-radius: 4.75904px;
 }
@@ -1572,3 +1575,4 @@ display: flex;
 #button-1 .layer {
   transition: 0.3s ease all;
 }
+
