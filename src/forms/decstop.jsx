@@ -122,7 +122,8 @@ const Decstop = (props) => {
                     <div className="menu-open"/>
                     <div className="card-prime">
                         <img id="card-prime-img" src= {cardsLogo}/>
-                        <h1>New era of crypto games</h1>
+                        <h1>New era of crypto games</h1> 
+               
                     </div>
                 </div>
                 <div className='center-sec'>
@@ -592,6 +593,7 @@ const Decstop = (props) => {
                                 <h1> Chat with us</h1>                           
                             </div>
                         </div>
+                        <div className="driiidik"/>
                     </div>
                 </div>
             </footer>
@@ -602,6 +604,7 @@ const Decstop = (props) => {
                     </div>
                 </div>
             </div> */}
+
 
         </div>
     )

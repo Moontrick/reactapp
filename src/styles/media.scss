@@ -4,12 +4,13 @@
     }
     
     
-    @media only screen and(min-width: 1441px){
+    @media only screen and(min-width: 1024px){
         body{
             line-height: 1;
-            background: #000000 url(../assets/media/bg1440.png) center 0 no-repeat;
+            background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            background-size: cover;
         }
         header{
             margin: 13px auto;
@@ -20,6 +21,14 @@
             margin: 13px auto;
             height: 92px;
             width: 1360px; 
+        }
+        .driiidik{
+          margin-left: -135px;
+          background: url(../assets/media/driiiiidik.svg) center center no-repeat;
+          width: 140px;
+          height: 117px;
+          margin-top: -30px;
+          background-size: cover;
         }
         .center{
             width: 1360px;
@@ -130,8 +139,8 @@
             height: 130px;
         }
         .left-footer{
-            width: 154px;
-            height: 92px;
+            width: 150px;
+            height: 88px;
         }
         .left-footer h1{
             width: 100px;
@@ -160,8 +169,8 @@
             width: 23px;
         }
         .footer-position{
-            width: 125px;
-            height: 92px;
+          width: 121px;
+          height: 88px;
             margin-right: 8px;
         }
         .line-f{
@@ -214,8 +223,8 @@
             opacity: 0.6;
         }
         .chatik{
-            height: 92px;
-            width: 195px;
+          height: 88px;
+          width: 222px;
         }
         .chat-ic{
             width: 27px;
@@ -368,7 +377,8 @@
         }
         .r-c-s{
             width: 1025px;
-            margin-left: 10px;
+            margin-left: 8px;
+            margin-right: 20px;
             height: 625px;
         }
         .dashboard{
@@ -587,15 +597,22 @@
             
             opacity: 0.8;
         }
+        .card-over{
+          height: 95px;
+        }
         .card-under-line-selected{
-            position: relative;
-            bottom: 6px;
+          position: relative;
+            bottom: 3px;
             height: 3px;
             width: 234px;
-            border-radius: 3px;      
-            opacity: 0.7;
+            display: none;
             background: linear-gradient(90deg, rgba(210, 70, 158, 0.83) 0.78%, rgba(75, 213, 207, 0.83) 100.02%);
             mix-blend-mode: normal;
+            opacity: 0.7;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .card-over:hover .card-under-line-selected{
+          display: flex;
         }
         .left-up-bl{
             display: flex;
@@ -614,9 +631,6 @@
             left: 385px;
             border-radius: 4px;
 
-        }
-        .card-over:hover .card-under-line-selected{
-            display: flex;
         }
         .left-down-bl{
             display: flex;
@@ -690,6 +704,8 @@
             height: 24px;
         }
         .left-down-bl-up h1{
+           top: 12px;
+            position: relative;
             font-family: 'Nippo';
             font-style: normal;
             font-weight: 200;
@@ -844,7 +860,7 @@
             /* identical to box height, or 83% */
             
             
-            color: #FFFFFF;
+            color: #ffffff;
         }
         .car-parameter-value-text2{
             font-family: 'Nippo';
@@ -1019,7 +1035,9 @@
             bottom: -7px;
           }
           .arrow-people{
-            width: 80px;
+           
+    width: 45px;
+
           }
           .arrow-under-text{
             font-family: 'Nippo';
@@ -1198,9 +1216,16 @@
     @media only screen and (min-width: 1919px){
         body{
             line-height: 1;
-            background: #000000 url(../assets/bg.png) center 0 no-repeat;
+            background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            background-size: cover;
+        }
+        .driiidik{
+          margin-left: -173px;
+          width: 214px;
+          height: 167px;
+          margin-top: -40px;
         }
         header{
             display: flex;
@@ -1383,14 +1408,14 @@
             display: flex;
             width: 1620px;
             height: 131px;
-            margin: 20px auto;
+            margin: 18px auto;
             flex-direction: column;
             justify-content: flex-start;
           }
           .footer-section{
             display: flex;
             align-items: center;
-            height: 150px;
+            height: 165px;
           }
           .footer-position{
             width: 148.48px;
@@ -1527,6 +1552,7 @@
             letter-spacing: 2.85543px;
             color: #FFFFFF;
             opacity: 0.6;
+            margin-bottom: 0px;
           }
           .partner-ic{
             background: url(../assets/partner.svg)center 0 no-repeat;
@@ -1602,7 +1628,7 @@
             border: 3.56135px solid rgba(255, 255, 255, 0.04);
             border-radius: 4.75904px;
             margin-right: 12px;
-            margin-left: 0px;
+            margin-left: 20px;
           }
           .profile-icon{
             height:164px;
@@ -2558,7 +2584,7 @@
               font-weight: 300;
               font-size: 50.3576px;
               line-height: 42px;
-              color: #FFFFFF;
+              color: #ffffff;
             }
             .car-parameter-value-text2{
               height: 15px;
@@ -2675,6 +2701,7 @@
             display: flex;
           }
           .card-over{
+            height: 135px;
             display: flex;
             flex-direction: column;
           }
@@ -2786,9 +2813,15 @@
     @media only screen and (min-width: 2559px) {
         body{
             line-height: 1;
-            background: #000000 url(../assets/media/bg2k.svg) center 0 no-repeat;
+            background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            background-size: cover;
+        }
+        .driiidik{
+          margin-left: -217px;
+          width: 244px;
+          height: 195px;
         }
         header{
         height: 158.15px;
@@ -2901,9 +2934,11 @@
             letter-spacing: 3.22762px;
             color: #FFFFFF;
             opacity: 0.6;
+            margin-top: -15px;
         }
         .footer-section{
             height: 190px;
+            margin-top: 15px;
         }
         .left-footer{
             width: 248.53px;
@@ -2997,7 +3032,7 @@
         .chatik{
             height: 148px;
             align-items: flex-start;
-            width: 360px;
+            width: 340px;
         }
         .chat-ic{
             width: 45px;
@@ -3089,7 +3124,8 @@
             border-radius: 37px;
         }
         .arrow-icon img{
-            width: 27px;
+            width: 32px;
+            height: 27px;
         }
         .arrow-icon:hover{
             background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
@@ -3378,7 +3414,7 @@
             border-radius: 6.45525px;
         }
         .left-down-bl-1{
-            height: 285.64459228515625px;
+            height: 291.644592px;
         }
         .card-over:hover .card-under-line-selected{
             display: flex;
@@ -3388,7 +3424,7 @@
             flex-direction: column;
             justify-content: space-evenly;
             height: 285.64459228515625px;
-            width: 524.48876953125px;     
+            width: 517.48877px;     
             background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
             border: 3.56135px solid rgba(255, 255, 255, 0.04);
             border-radius: 6.45525px;
@@ -3527,7 +3563,7 @@
         background-size: cover;
         }
         .left-down-bl-down-line{
-            width: 530px;
+            width: 522px;
         }
         .car{
             height: 600.337890625px;
@@ -3585,7 +3621,7 @@
             /* identical to box height, or 83% */
 
 
-            color: #FFFFFF;
+            color: #ffffff;
         }
         .car-parameter-value-text2{
             margin-left: 20px;
@@ -3842,6 +3878,10 @@
             background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
             width: 100%;
             height: 100%;
+            background-size: cover;
+        }
+        .card-over{
+          height: 220px;
         }
         .center{
            width: 3234.1335449218777px;
@@ -4166,7 +4206,8 @@
             border-radius: 53px;
         }
         .arrow-icon img{
-            width: 47px;
+          width: 45px;
+          height: 38px;
         }
         .arrow-icon:hover{
             background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
@@ -4767,7 +4808,7 @@
             /* identical to box height, or 83% */
             
             
-            color: #FFFFFF;
+            color: #ffffff;
         }
         .car-parameter-value-text3{
             font-family: 'Nippo';
