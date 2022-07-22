@@ -43,6 +43,14 @@ header{
   align-items: center;
   margin-left: 72px;
 }
+.card-prime-img{
+  background: url(../assets/cards3.svg) center center no-repeat;
+  width: 178px;
+  height: 116px;
+  background-position-x: -11px;
+  background-position-y: -22px;
+  margin-left: 46px;
+}
 // so invain
 // .card-prime h1{
 //   font-family: 'Nippo';
@@ -887,6 +895,7 @@ display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
+  border: 3.56135px solid rgba(255, 255, 255, 0.04);
 }
 .left-down-bl-down{
   display: flex;
@@ -900,7 +909,6 @@ display: flex;
   width: 385px;
   height: 211px;
   background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
-  border: 3.56135px solid rgba(255, 255, 255, 0.04);
   border-radius: 4.75904px;
 }
 .left-down-bl-up{
@@ -1190,6 +1198,9 @@ display: flex;
 
   
   .car-slider-limit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 19px;
     font-family: 'Nippo';
     font-style: normal;
@@ -1268,6 +1279,9 @@ display: flex;
     margin-right:9px;
   }
   .car-tesla-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 52px;
     height: 13px;
     font-family: 'Nippo';

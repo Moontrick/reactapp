@@ -120,8 +120,8 @@ const Decstop = (props) => {
             <header>
                 <div className='left-sec'>
                     <div className="menu-open"/>
+                    <div className="card-prime-img"></div>
                     <div className="card-prime">
-                        <img id="card-prime-img" src= {cardsLogo}/>
                         <h1>New era of crypto games</h1> 
                
                     </div>
