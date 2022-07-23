@@ -7,13 +7,14 @@
   @media only screen and(min-width: 1024px){
       body{
           line-height: 1;
-          background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
+          background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
           width: 100%;
           height: 100%;
           background-size: cover;
       }
       header{
-          margin: 13px auto;
+          margin: 0 auto;
+          margin-top:13px;
           height: 76px;
           width: 1360px;
       }
@@ -36,13 +37,14 @@
       .card-prime-img{
         height:83px;
         width:184px;
-        margin-left:15px;
+        margin-left:6px;
         background-size: 145px;
         background-position-x: 20px;
-        background-position-y:-25px;
+        background-position-y:-21px;
       }
       .center{
           width: 1360px;
+          margin-top:16px;
       }
       .menu-open{
           width: 25px;
@@ -262,7 +264,7 @@
           justify-content: flex-end;
       }
       .profile{
-          height: 606px;
+          height: 610px;
           width: 325px;
           margin-right: 20px;
       }
@@ -282,14 +284,11 @@
           font-weight: 500;
           font-size: 23px;
           line-height: 21px;
-          /* identical to box height, or 91% */
-
-
           color: #FFFFFF;
-
           opacity: 0.8;
       }
       .profile-id{
+          height:21px;
           font-family: "Nippo";
           font-style: normal;
           font-weight: 700;
@@ -298,6 +297,10 @@
           text-align: center;
           color: #FFFFFF;
           opacity: 0.9;
+      }
+      .button-show{
+        margin-top:0px;
+        height:53px;
       }
       .wallet-id{
           margin-top: 12px;
@@ -344,7 +347,8 @@
           width: 329px;
           height: 242px;
           background-position-y: 0px;
-          background-size: cover;
+          background-size: 329px;
+          background-position-x: -3px;
       }
       .graph img{
           margin: 46px 0px 0px 123px;
@@ -356,10 +360,11 @@
           background-repeat: no-repeat;
           background-position-x: -1px;
           background-position-y: -1px;
-          background-size: cover;
+          background-size: 326px;
       }
       .profit-block{
-          height: 134px;
+          height: 144px;
+          width:326px;
       }
       .button-show-svg{
           width: 209px;
@@ -372,18 +377,16 @@
 
       }
       .profit{
+          height:11px;
+          margin-bottom:11px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 200;
           font-size: 13px;
           line-height: 107%;
-          /* or 14px */
-
           text-align: center;
           letter-spacing: 2px;
-
           color: #FFFFFF;
-
           opacity: 0.6;
       }
       .r-c-s{
@@ -395,6 +398,7 @@
       .dashboard{
           width: 1005px;
           height: 60px;
+          margin-top:16px;
       }
       .dashboard-title{
           font-family: 'Sportypo';
@@ -480,12 +484,46 @@
           font-weight: 500;
           font-size: 26px;
           line-height: 21px;
-          /* identical to box height, or 91% */
-          
-          
           color: #FFFFFF;
-          
           opacity: 0.8;
+      }
+      .card-count2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:relative;
+        font-family: 'Nippo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 21px;
+        color: #FFFFFF;
+        opacity: 1;
+      }
+      .card-count2 .id1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #D2459E;
+        margin: -1px 1px 0px 0px;
+        margin-top:1px;
+      }
+      .card-count2 .id2{
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #17E3F3;
+        margin: 1px -1px 0px 0px;
+      }
+      .card-count2 .id3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #FFFFFF;
+        margin:0;
+        margin-top:2px;
       }
       .number-cards{
           width: 1005px;
@@ -582,12 +620,9 @@
           font-weight: 500;
           font-size: 37.1177px;
           line-height: 34px;
-          /* identical to box height, or 91% */
-
-
           color: #FFFFFF;
-
           opacity: 0.8;
+          margin-top:-3px;
       }
       .card-count-block2 img{
           height: 7px;
@@ -630,15 +665,15 @@
           flex-direction: column;
           justify-content: space-evenly;
           height: 177px;
-          width: 325px;
+          width: 319px;
           border-radius: 4px;       
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
-          margin-bottom: 26px;
+          margin-bottom: 18px;
           mix-blend-mode: normal;
       }
       .left-down-bl-1{
           height: 177px;
-          width: 325px;
+          width: 318px;
           left: 385px;
           border-radius: 4px;
           border: 3.56135px solid rgba(255, 255, 255, 0.04);
@@ -648,7 +683,7 @@
           flex-direction: column;
           justify-content: space-evenly;
           height: 178px;
-          width: 326px;
+          width: 319px;
           border-radius: 4px;    
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
       }
@@ -801,7 +836,7 @@
       background-size: cover;
       }
       .left-down-bl-down-line{
-          width   : 327px;
+          width: 319px;
           height: 6px;
           border-radius: 4px;
           
@@ -1044,9 +1079,10 @@
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 300;
-          font-size: 20.9795px;
-          line-height: 31px;
+          font-size: 15px;
+          line-height: 23px;
           color: #FFFFFF;
+          text-align:center;
         }
         input[type=range] {
           -webkit-appearance: none;
@@ -1215,7 +1251,7 @@
   @media only screen and (min-width: 1919px){
       body{
           line-height: 1;
-          background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
+          background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
           width: 100%;
           height: 100%;
           background-size: cover;
@@ -1225,8 +1261,8 @@
         width: 178px;
         height: 116px;
         background-position-x: -11px;
-        background-position-y: -22px;
-        margin-left: 46px;
+        background-position-y: -25px;
+        margin-left: 42px;
       }
       .driiidik{
         margin-left: -173px;
@@ -1242,7 +1278,6 @@
           width: 1620px;
           margin: 20px auto;
           background: rgba(190 190 190 / 10%);
-          border: 3.56135px solid rgba(255, 255, 255, 0.04);
           border-radius: 4.75904px;
         }
         .center{
@@ -1635,7 +1670,7 @@
           border: 3.56135px solid rgba(255, 255, 255, 0.04);
           border-radius: 4.75904px;
           margin-right: 12px;
-          margin-left: 20px;
+          margin-left: 26px;
         }
         .profile-icon{
           height:164px;
@@ -1762,7 +1797,6 @@
           width:390px;
           height:132px;
           background: url(../assets/images/graph.svg);
-          background-position-x: -1px;
         }
         .graph img{
           margin: 58px 0px 0px 173px;
@@ -1771,6 +1805,7 @@
           background: linear-gradient(180deg, rgba(26, 34, 75, 0.0001) 0%, #130F24 97.66%);
           border-radius: 4.75904px;
           height: 187px;
+          width:387px;
         }
         .profit{
           height: 16px;
@@ -1822,7 +1857,7 @@
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          width:1210px;
+          width:1204px;
         }
         .card{
           width: 278px;
@@ -2120,7 +2155,7 @@
         }
         .left-down-bl-1{
           width:385px;
-          height: 211px;
+          height: 203px;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
@@ -2137,7 +2172,7 @@
           flex-direction: column;
           justify-content: space-evenly;
           width: 385px;
-          height: 211px;
+          height: 203px;
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
 
           border-radius: 4.75904px;
@@ -2229,7 +2264,7 @@
           background: url(../assets/car.svg) center 0 no-repeat;
         }
         .left-down-bl-down-line{
-          width: 390px;
+          width: 385px;
           height: 7.23px;
           background: #EA3498;
           box-shadow: 0px -30.9701px 72.2636px 92.9104px rgba(234, 52, 151, 0.06);
@@ -2251,12 +2286,12 @@
         }
         .dashboard{
           margin-bottom: 25px;
-          margin-top: 7px;
+          margin-top: 16px;
           display:flex;
           flex-direction: row;
           justify-content: space-between;
           height:76px;
-          width:1210px;
+          width:1204px;
         }
         .dashboard-title{
           position: relative;
@@ -2398,11 +2433,11 @@
           right: 165px;
         }
         .car{
-          margin-left: 20px;
+            margin-left: 17px;
             display:flex;
             flex-direction: column;
             align-items: center;
-            width:800px;
+            width:794px;
             height:441px;
             box-sizing: border-box;
             background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
@@ -2824,7 +2859,7 @@
   @media only screen and (min-width: 2559px) {
       body{
           line-height: 1;
-          background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
+          background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
           width: 100%;
           height: 100%;
           background-size: cover;
@@ -2835,8 +2870,10 @@
         height: 195px;
       }
       header{
-      height: 158.15px;
-      width: 2194.78px;
+        height: 158.15px;
+        width: 2194.78px;
+        margin:0 auto;
+        margin-top:20px;
       }
       footer{
           height: 174.15px;
@@ -2846,7 +2883,7 @@
         background-size: 260px;
         width: 250px;
         height: 165px;
-        background-position-y: -36px;
+        background-position-y: -32px;
         margin-left: 85px;
       }
       .card-prime{
@@ -2854,6 +2891,7 @@
       }
       .center{
           width: 2194.78px;
+          margin-top:26px;
       }
       .menu-open{
           width: 42px;
@@ -3168,8 +3206,10 @@
       .score-graph{
           width: 526px;
           height: 445px;
+          margin-top:42px;
           background-position-y: 0px;
           background-size: cover;
+          background: url(../assets/images/profile-bg-2k.svg) center center no-repeat;
       }
       .graph img{
           margin: 88px 0px 0px 173px;
@@ -3180,15 +3220,15 @@
           background: url(../assets/images/graph.svg);
           background-repeat: no-repeat;
           background-position-x: -1px;
-          background-size: cover;
+          background-size: 525px;
       }
       .profit-block{
-          height: 304px;
+          height: 256px;
+          width:525px;
       }
       .profit{
           left: 0;
           right: 0;
-          top: 50px;
           bottom: 0;
           position: relative;
           font-family: 'Nippo';
@@ -3196,13 +3236,9 @@
           font-weight: 200;
           font-size: 20.9795px;
           line-height: 107%;
-          /* identical to box height, or 22px */
-
           text-align: center;
           letter-spacing: 3.22762px;
-
           color: #FFFFFF;
-
           opacity: 0.6;
       }
       .button-show-svg{
@@ -3219,6 +3255,7 @@
           width: 1670px;
           margin-left: 10px;
           height: 984.67px;
+          margin-top:15px;
       }
       .dashboard{
           width: 1640px;
@@ -3436,7 +3473,7 @@
       }
       .left-down-bl-1{
           width: 525px;
-          height: 291.644592px;
+          height: 283.644592px;
       }
       .card-over:hover .card-under-line-selected{
           display: flex;
@@ -3445,7 +3482,7 @@
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          height: 285.64459228515625px;
+          height: 275.64459228515625px;
           width: 517.48877px;     
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
           border: 3.56135px solid rgba(255, 255, 255, 0.04);
@@ -3896,7 +3933,7 @@
   @media only screen and (min-width: 3839px) {
       body{
           line-height: 1;
-          background: #000000 url(../assets/media/bg4k.svg) center 0 no-repeat;
+          background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
           width: 100%;
           height: 100%;
           background-size: cover;
@@ -3916,7 +3953,8 @@
         background-size: 365px;
         width: 332px;
         height: 240px;
-        margin-left: 145px;
+        margin-left: 139px;
+        background-position-y:-42px;
       }
       .center{
          width: 3234.1335449218777px;
@@ -3942,18 +3980,15 @@
       }
       
       .card-prime h1{
-          width: 256px;
+          width: 257px;
+          height:66px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 200;
-          font-size: 30.5483px;
+          font-size: 31px;
           line-height: 107%;
-          /* or 33px */
-          
-          letter-spacing: 5.72781px;
-          
+          letter-spacing: 6px;   
           color: #FFFFFF;
-          
           opacity: 0.6;
       }
       .smart-sc{

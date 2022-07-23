@@ -7,7 +7,6 @@ header{
   width: 1620px;
   margin: 20px auto;
   background: rgba(190 190 190 / 10%);
-  border: 3.56135px solid rgba(255, 255, 255, 0.04);
   border-radius: 4.75904px;
 }
 .center{
@@ -1046,6 +1045,7 @@ display: flex;
   right: 0;
   color: #D2459E;
   margin: -3px 3px 0px 0px;
+  opacity: 0.9;
 }
 .dashboard-title .id2{
   position: absolute;
@@ -1054,6 +1054,7 @@ display: flex;
   right: 0;
   color: #17E3F3;
   margin: 3px -3px 0px 0px;
+  opacity: 0.9;
 }
 .dashboard-title .id3{
   position: absolute;
@@ -1062,6 +1063,7 @@ display: flex;
   right: 0;
   color: #FFFFFF;
   margin:0;
+  opacity: 0.9;
 }
 .personal-link{
   width: 278px;

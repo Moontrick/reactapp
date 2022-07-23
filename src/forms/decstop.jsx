@@ -308,8 +308,12 @@ const Decstop = (props) => {
                                 <img className = "card4-img" src = {cardTime}></img>                      
                             </div>
                             <div className='card-count-block2'>
-                                    <div className="card-count2">72%</div>
-                                    <img src={cardProgress}></img>
+                                <div className="card-count2">
+                                    <div className="id2">72%</div>
+                                    <div className="id1">72%</div>
+                                    <div className="id3">72%</div>
+                                </div>
+                                <img src={cardProgress}></img>
                             </div>  
                         </div>
 
@@ -379,11 +383,6 @@ const Decstop = (props) => {
                         <div className='car-tesla-text'>Cyber Car V2</div>
                         <div className='car-tesla-text2'>LEVEL 8</div>
                         <div className = "car-slider-limit">0</div>
-                        {/* <div className = 'car-slider'>
-                            <div className='car-slider-point'>
-                                <div>8</div>
-                            </div>
-                        </div> */}
                             <input 
                                 className="new6"
                                 id="typeinp" 
@@ -393,7 +392,6 @@ const Decstop = (props) => {
                                 value={carSlide}
                                 onChange={handleNextButtonClick}
                             />
-                            {/* <h1 className="carSlideText" style = {{right: styleFilters}} >{carSlide}</h1> */}
                            
                         <div className = "car-slider-limit">12</div>
                         <img className='car-img2' src = {carUpgrade}></img>
