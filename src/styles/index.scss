@@ -62,7 +62,10 @@ table {
   src: url('../assets/Sportypo-Reguler-Demo.ttf') format('opentype');
 }
 
-
+@font-face {
+  font-family: 'Nippo-B';
+  src: url('../assets/Nippo-Medium.otf') format('opentype');
+}
 
 input[type=range] {
   -webkit-appearance: none;

@@ -18,8 +18,14 @@
           height: 76px;
           width: 1360px;
       }
+      .left-down-left-bl{
+        height: 372px;
+        width: 664px;
+        border-radius: 4px;
+        margin-left: 20px;
+      }
       footer{
-          margin: 13px auto;
+          margin: -20px auto;
           height: 92px;
           width: 1360px; 
       }
@@ -264,9 +270,10 @@
           justify-content: flex-end;
       }
       .profile{
-          height: 610px;
-          width: 325px;
-          margin-right: 20px;
+        height: 588px;
+        width: 325px;
+        margin-right: 4px;
+        margin-bottom: 26px;
       }
       .profile-icon img{
           height: 138px;
@@ -279,7 +286,6 @@
       }
       .card-count2{     
           
-          font-family: 'Nippo';
           font-style: normal;
           font-weight: 500;
           font-size: 23px;
@@ -289,7 +295,7 @@
       }
       .profile-id{
           height:21px;
-          font-family: "Nippo";
+          font-family: "Nippo-B";
           font-style: normal;
           font-weight: 700;
           font-size: 24px;
@@ -345,7 +351,7 @@
       }
       .score-graph{
           width: 329px;
-          height: 242px;
+          height: 230px;
           background-position-y: 0px;
           background-size: 329px;
           background-position-x: -3px;
@@ -363,7 +369,7 @@
           background-size: 326px;
       }
       .profit-block{
-          height: 144px;
+          height: 123px;
           width:326px;
       }
       .button-show-svg{
@@ -391,14 +397,15 @@
       }
       .r-c-s{
           width: 1025px;
-          margin-left: 8px;
-          margin-right: 20px;
+          margin-left: 22px;
+          margin-right: 10px;
           height: 625px;
       }
       .dashboard{
           width: 1005px;
           height: 60px;
-          margin-top:16px;
+          margin-top: 6px;
+          margin-left: 10px;
       }
       .dashboard-title{
           font-family: 'Sportypo';
@@ -418,7 +425,7 @@
           height: 74px;
           width: 234px;
           border-radius: 4px;
-          
+          margin-right: 10px;
       }
       .card4-first{
           margin-top: 2px;
@@ -479,10 +486,10 @@
           margin-top: 3px;
       }
       .card-count{
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 500;
-          font-size: 26px;
+          font-size: 22px;
           line-height: 21px;
           color: #FFFFFF;
           opacity: 0.8;
@@ -492,10 +499,9 @@
         justify-content: center;
         align-items: center;
         position:relative;
-        font-family: 'Nippo';
         font-style: normal;
         font-weight: 500;
-        font-size: 26px;
+        font-size: 25px;
         line-height: 21px;
         color: #FFFFFF;
         opacity: 1;
@@ -631,7 +637,9 @@
        border-radius: 4px;     
       }
       #car-information{
-          margin-top: 35px;
+        margin-left: 4px;
+        margin-bottom: 10px;
+          margin-top: 20px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 300;
@@ -673,7 +681,7 @@
       }
       .left-down-bl-1{
           height: 177px;
-          width: 318px;
+          width: 315px;
           left: 385px;
           border-radius: 4px;
           border: 3.56135px solid rgba(255, 255, 255, 0.04);
@@ -683,7 +691,7 @@
           flex-direction: column;
           justify-content: space-evenly;
           height: 178px;
-          width: 319px;
+          width: 316px;
           border-radius: 4px;    
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
       }
@@ -726,13 +734,13 @@
           
       }
       .left-up-bl-check-up-block{
-          height: 32px;
-          width: 40px;
+          height: 40px;
+          width: 44px;
           border-radius: 4px;        
       }
       .left-up-bl-check-up-block-enable{
           height: 40px;
-          width: 48px;
+          width: 45px;
       
           border-radius: 4px;       
       }
@@ -741,7 +749,7 @@
       }
       .left-up-bl-check-up-block-plus{
           height: 40px;
-          width: 48px;
+          width: 45px;
           border-radius: 4px;      
       }
       .plus-box{
@@ -836,23 +844,25 @@
       background-size: cover;
       }
       .left-down-bl-down-line{
-          width: 319px;
+          width: 316px;
           height: 6px;
           border-radius: 4px;
           
       }
       .car{
-          height: 378px;
-          width: 664px;
-          border-radius: 4px;
-          
+        position: relative;
+        top: -1px;
+        height: 374px;
+        width: 665px;
+        border-radius: 2px;
+        margin-left: 0px;
 
       }
       .car-upper-block{
           height: 37px;
           width: 597px;
           border-radius: 4px;
-          
+         
       }
       .car-center-block{
           margin-top: 0px;
@@ -1264,6 +1274,14 @@
         background-position-y: -25px;
         margin-left: 42px;
       }
+      .left-down-left-bl{
+        width: 794px;
+        height: 440px;
+        border-radius: 4px;
+        margin-left: 20px;
+        border-radius: 5.24558px;
+        margin-left: 17px;
+      }
       .driiidik{
         margin-left: -173px;
         width: 214px;
@@ -1450,7 +1468,7 @@
           display: flex;
           width: 1620px;
           height: 131px;
-          margin: 18px auto;
+          margin: -12px auto;
           flex-direction: column;
           justify-content: flex-start;
         }
@@ -1561,7 +1579,7 @@
         .line-f{
           width: 125.64px;
           height: 92.32px;
-          border: 3.56135px solid rgba(255, 255, 255, 0.04);
+          border: 3.56135px solid rgba(255, 255, 255, 0.02);
           border-radius: 4.75904px;
           display: flex;
           align-items: center;
@@ -1594,7 +1612,7 @@
           letter-spacing: 2.85543px;
           color: #FFFFFF;
           opacity: 0.6;
-          margin-bottom: 0px;
+          margin-bottom: 13px;
         }
         .partner-ic{
           background: url(../assets/partner.svg)center 0 no-repeat;
@@ -1667,10 +1685,9 @@
           width: 389px;
           height: 718.67px;
           background: rgb(190 190 190 / 10%);
-          border: 3.56135px solid rgba(255, 255, 255, 0.04);
           border-radius: 4.75904px;
-          margin-right: 12px;
-          margin-left: 26px;
+          margin-right: 3px;
+          margin-left: 18px;
         }
         .profile-icon{
           height:164px;
@@ -1681,7 +1698,7 @@
           position:relative;
           margin:0 auto;
           height: 23px;
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 25px;
@@ -1853,7 +1870,7 @@
           }
         .number-cards{
           height: 107px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
@@ -1960,7 +1977,7 @@
         .card-count{
           position:relative;
           height: 26px;
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 500;
           font-size: 27px;
@@ -2033,7 +2050,7 @@
           border-radius: 5px 5px 0px 0px;
         }
         #binance{
-          margin-left: 15px;
+          margin-left: 32px;
         }
         .left-up-bl{
           display: flex;
@@ -2066,6 +2083,8 @@
           letter-spacing: 3.09701px;
           color: #FFFFFF;
           opacity: 0.7;
+          margin-right: 73px;
+          margin-left: 12px;
         }
         .left-up-bl-up-active
         {
@@ -2089,10 +2108,9 @@
         }
         .left-up-bl-check-up-block{
           margin-bottom: 8px;
-          width: 51.65px;
-          height:  43.36px;
+          width: 53px;
+          height:  43px;
           background: rgba(190 190 190 / 10%);
-          border: 3.56135px solid rgba(255, 255, 255, 0.04);
           border-radius: 4.75904px;
           display: flex;
           align-items: center;
@@ -2104,6 +2122,7 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          margin-left: 20px;
         }
         .left-up-bl-check-up{
           display: flex;
@@ -2116,14 +2135,14 @@
         }
         
         .left-up-bl-check-up-block-enable{
-          width: 60px;
-          height:  51px;
+          width: 53px;
+          height: 45px;
           background: linear-gradient(121.47deg, rgba(210 70 158 / 50%) 0%, rgba(75 213 207 / 50%) 106.69% ) ;
           border-radius: 5.16169px;
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-right: 2px;
+          margin-right: 3px;
         }
         .check-box{
           background: url(../assets/check.svg) center 0 no-repeat;
@@ -2133,14 +2152,14 @@
         }
         
         .left-up-bl-check-up-block-plus{
-          width: 60px;
-          height: 51px;
+          width: 53px;
+          height: 45px;
           background: linear-gradient(134.2deg, rgba(234 52 152 / 90%) -2.74%, rgba(166 7 94 / 90%) 95.67%);
           border-radius: 5.16169px;
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-right: 2px;
+          margin-right: 3px;
         }
         .plus-box{
           background: url(../assets/plus.svg) center 0 no-repeat;
@@ -2171,15 +2190,15 @@
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          width: 385px;
-          height: 203px;
+          width: 386px;
+          height: 204px;
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
 
           border-radius: 4.75904px;
         }
         .left-down-bl-up{
           margin-top: 20px;
-          margin-left: 25px;
+          margin-left: 32px;
         }
         .left-down-bl-up h1{
           font-family: 'Nippo';
@@ -2259,6 +2278,8 @@
           margin-left: 25px;
         }
         .left-down-bl-down-right-car{
+          margin-left: -15px;
+
           width: 285px;
           height: 190px;
           background: url(../assets/car.svg) center 0 no-repeat;
@@ -2274,7 +2295,7 @@
         }
         #car-information{
           margin-top: 0px;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 300;
@@ -2433,7 +2454,6 @@
           right: 165px;
         }
         .car{
-            margin-left: 17px;
             display:flex;
             flex-direction: column;
             align-items: center;
@@ -2442,7 +2462,6 @@
             box-sizing: border-box;
             background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
             mix-blend-mode: normal;
-            border: 2.37545px solid rgba(255, 255, 255, 0.088);
             border-radius: 5.24558px;
           }
           .car-upper-block{
@@ -2876,6 +2895,7 @@
         margin-top:20px;
       }
       footer{
+        margin: 20px auto;
           height: 174.15px;
           width: 2194.78px; 
       }
@@ -3120,6 +3140,7 @@
           justify-content: flex-end;
       }
       .profile{
+        margin-right: 20px;
           height: 977.9697265625px;
           width: 524.48876953125px;
       }
@@ -3134,7 +3155,6 @@
       }
       .card-count2{
           
-          font-family: 'Nippo';
           font-style: normal;
           font-weight: 500;
           font-size: 37.1177px;
@@ -3146,8 +3166,22 @@
           
           opacity: 0.8;
       }
+      #pr-id{
+        font-family: 'Nippo-B';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33.89px;
+        line-height: 31px;
+        /* or 90% */
+        margin: 27px auto 11px auto;
+        text-align: center;
+
+        color: #FFFFFF;
+
+        opacity: 0.9;
+      }
       .profile-id{
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 33.89px;
@@ -3216,7 +3250,7 @@
       }
       .graph{
           width: 528px;
-          height: 181px;
+          height: 209px;
           background: url(../assets/images/graph.svg);
           background-repeat: no-repeat;
           background-position-x: -1px;
@@ -3329,7 +3363,7 @@
           border-radius: 6.45525px;
       }
       .card-count{
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 500;
           font-size: 37.1177px;
@@ -3499,7 +3533,8 @@
           letter-spacing: 4.84143px;
 
           color: #FFFFFF;
-
+          margin-left: -5px;
+          margin-right: 73px;
           opacity: 0.7;
       }
       .left-up-bl-up-active{
@@ -3525,19 +3560,22 @@
           color: #FFFFFF;
       }
       #binance{
-          margin-left: 32px;
+          margin-left: 37px;
       }
       .left-up-bl-check-up-block{
           height: 58.09721755981445px;
           width: 71.00770568847656px;    
+          margin-right: 4px;
       }
       .left-up-bl-check-up-block-enable{
-          height: 64.09721755981445px;
-          width: 79.00770568847656px;     
+        height: 61.097218px;
+        width: 71.007706px;    
+        margin-right: 4px;
       }
       .left-up-bl-check-up-block-plus{
-          height: 64.09721755981445px;
-          width: 79.00770568847656px;    
+        height: 61.097218px;
+        width: 71.007706px;
+        margin-right: 4px;   
       }
       .plus-box{
           width: 40px;
@@ -3580,7 +3618,10 @@
           font-size: 22.5934px;
           line-height: 23px;
           /* identical to box height, or 100% */
+          height: 35.50385284423828px;
+          width: 93.60106658935547px;
 
+          
 
           color: #FFFFFF;
 
@@ -3610,19 +3651,29 @@
           font-size: 22.5934px;
           line-height: 23px;
           /* identical to box height, or 100% */
-
+          height: 35.50385284423828px;
+          width: 93.60106658935547px;
 
           color: #FFFFFF;
 
           opacity: 0.9;
       }
       .left-down-bl-down-right-car{
+        margin-left: -15px;
       width: 395px;
       height: 220px;
       background-size: cover;
       }
       .left-down-bl-down-line{
           width: 522px;
+      }
+      .left-down-left-bl{
+        height: 600.337890625px;
+        width: 1080.253662px;
+        border-radius: 4px;
+        margin-left: 20px;
+        border-radius: 5.24558px;
+        margin-left: 22px;
       }
       .car{
           height: 600.337890625px;
@@ -3642,6 +3693,7 @@
           width: 224.31980895996094px;
       }
       .car-parameters{
+        margin-top: 38px;
           height: 430px;
       }
       .car-big{
@@ -3938,8 +3990,12 @@
           height: 100%;
           background-size: cover;
       }
+      .left-right-c-s{
+        margin-left: 30px;
+      }
       .card-over{
         height: 220px;
+        margin-right: 32px;
       }
       .card-prime{
         margin-left: -60px;
@@ -4240,7 +4296,7 @@
           margin: 31px auto;
       }
       .profile-id{
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 49.6337px;
@@ -4383,10 +4439,12 @@
           height: 1441.29px;
       }
       .dashboard{
+        margin-left: 40px;
           width: 2430px;
           height: 175.62693786621094px;
       }
       .dashboard-title{
+         margin-left: 50px;
           font-family: 'Sportypo';
           font-style: normal;
           font-weight: 500;
@@ -4401,6 +4459,7 @@
           text-shadow: 0px 57.2697px 152.719px rgba(214, 50, 143, 0.47);
       }
       .personal-link{
+        margin-right: 35px;
           height: 175.62693786621094px;
           width: 557.5247802734375px;        
           border-radius: 9.54494px;
@@ -4469,7 +4528,7 @@
           margin-top: 20px;
       }
       .card-count{
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 500;
           font-size: 54.8279px;
@@ -4485,6 +4544,7 @@
       .number-cards{
           width: 2435px;
           height: 225px;
+          margin-left: 32px;
       }
       .card-text{
           font-family: 'Nippo';
@@ -4566,7 +4626,6 @@
       }
       .card-count2{
           
-          font-family: 'Nippo';
           font-style: normal;
           font-weight: 500;
           font-size: 54.8279px;
@@ -4610,6 +4669,7 @@
           height: 20px;
       }
       #car-information{
+          margin-left: 32px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 300;
@@ -4665,7 +4725,8 @@
           font-size: 33.128px;
           line-height: 107%;
           /* or 35px */
-          
+          margin-right: 50px;
+          margin-left: 20px;
           letter-spacing: 6.2115px;
           
           color: #FFFFFF;
@@ -4703,7 +4764,10 @@
       }
       #binance{
           margin-bottom: 10px;
-          margin-left: 23px;
+             margin-left: 47px;
+      }
+      .left-up-bl-check{
+        margin-left: 32px;
       }
       .left-up-bl-check-up-block{
           height: 86.9594497680664px;
@@ -4712,14 +4776,14 @@
           border-radius: 10.3525px;  
       }
       .left-up-bl-check-up-block-enable{
-          height: 93.95945px;
-          width: 112.29911px; 
+        height: 86.95945px;
+        width: 105.29911px;
           border-radius: 10.3525px;   
           margin-right: 8px;
       }
       .left-up-bl-check-up-block-plus{
-          height: 93.95945px;
-          width: 112.29911px;  
+        height: 86.95945px;
+        width: 105.29911px; 
           border-radius: 10.3525px; 
           margin-right: 8px;
       }
@@ -4810,8 +4874,11 @@
           
           opacity: 0.9;
       }
+      .left-down-bl-up{
+        margin-left: 54px;
+      }
       .left-down-bl-down-right-car{
-          margin-left: 39px;
+        margin-left: 2px;
           width: 553px;
           height: 318px;
           background-size: cover;
@@ -4824,10 +4891,18 @@
           box-shadow: 0px -62.115px 144.935px 186.345px rgba(234, 52, 151, 0.06);
           border-radius: 10.3525px;
       }
+      .left-down-left-bl{
+        height: 883.103333px;
+        width: 1589.400635px;
+        border-radius: 4px;
+        margin-left: 20px;
+        border-radius: 5.24558px;
+        margin-left: 40px;
+      }
       .car{
           height: 884.1033325195312px;
           width: 1588.400634765625px;
-          margin-left: 70px;
+          
       }
       .car-upper-block{
           margin-top: 35px;
@@ -5534,7 +5609,7 @@ and (max-device-width: 770px) {
   .line-f{
       width: 132px;
       height: 97px;
-      border: 2px solid rgba(255, 255, 255, 0.04);
+      border: 2px solid rgba(255, 255, 255, 0.02);
       margin: 0px 9px 0px 9px;
   }
   .footer-position{

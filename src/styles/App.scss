@@ -297,7 +297,7 @@ display: flex;
 .line-f{
   width: 125.64px;
   height: 92.32px;
-  border: 3.56135px solid rgba(255, 255, 255, 0.04);
+  border: 3.56135px solid rgba(255, 255, 255, 0.02);
   border-radius: 4.75904px;
   display: flex;
   align-items: center;
@@ -395,7 +395,9 @@ display: flex;
   margin-left: 13px;
 }
 
-
+.card-count2{
+  font-family: 'Nippo-B';
+}
 
 
 
@@ -403,7 +405,7 @@ display: flex;
   width: 389px;
   height: 718.67px;
   background: rgb(190 190 190 / 10%);
-  border: 3.56135px solid rgba(255, 255, 255, 0.04);
+
   border-radius: 4.75904px;
   margin-right: 20px;
   margin-left: 20px;
@@ -441,7 +443,7 @@ display: flex;
   left: 0;
   right: 0;
   color: #17E3F3;
-  margin: 1px -1px 0px 0px;
+  margin: 1px -1px 0px 1px;
 }
 .profile-id .id3{
   position: absolute;
@@ -710,14 +712,14 @@ display: flex;
   left: 0;
   right: 0;
   color: #D2459E;
-  margin: -1px 1px 0px 0px;
+  margin: -1px 1px 0px -1px;
 }
 .card-count .id2{
   top: 0;
   left: 0;
   right: 0;
   color: #17E3F3;
-  margin: 1px -1px 0px 0px;
+  margin: 1px -1px 0px 1px;
 }
 .card-count .id3{
   position: absolute;
@@ -823,11 +825,11 @@ display: flex;
   color: #FFFFFF;
 }
 .left-up-bl-check-up-block{
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   width: 51.65px;
   height:  43.36px;
   background: rgba(190 190 190 / 10%);
-  border: 3.56135px solid rgba(255, 255, 255, 0.04);
+ 
   border-radius: 4.75904px;
   display: flex;
   align-items: center;
@@ -1168,7 +1170,7 @@ display: flex;
   right: 165px;
 }
 .car{
-  margin-left: 16px;
+  margin-left: 20px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -1177,8 +1179,11 @@ display: flex;
     box-sizing: border-box;
     background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
     mix-blend-mode: normal;
-    border: 2.37545px solid rgba(255, 255, 255, 0.088);
+
     border-radius: 5.24558px;
+  }
+  .left-down-left-bl{
+    border: 2.37545px solid rgba(255, 255, 255, 0.088);
   }
   .car-upper-block{
     display:flex;

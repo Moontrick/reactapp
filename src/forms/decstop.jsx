@@ -194,7 +194,7 @@ const Decstop = (props) => {
                         <div className='profit'>
                             Your profit:
                         </div>
-                        <div className="profile-id">
+                        <div className="profile-id" id="pr-id">
                             <div className="id2">56.054 BNB</div>
                             <div className="id1">56.054 BNB</div>
                             <div className="id3">56.054 BNB</div>
@@ -377,6 +377,7 @@ const Decstop = (props) => {
                             <div className='left-down-bl-down-line'/>
                         </div>
                     </div>
+                    <div className="left-down-left-bl">
                     <div className='car'>
                     <div className='car-upper-block'>
                         <img className='car-img1' src = {carTesla}></img>
@@ -494,6 +495,7 @@ const Decstop = (props) => {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
                 </div>
             </div>
