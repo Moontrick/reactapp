@@ -5801,6 +5801,8 @@ and (max-device-width: 770px) {
       justify-content: center;
       align-items: center;
       margin-top:17px;
+      width: 100%;
+      margin-left: 10%;
   }
   .car-img1{
       margin-left:23px;
@@ -5828,6 +5830,9 @@ and (max-device-width: 770px) {
       height: 12px;
       font-size: 13px;
       line-height: 12px;
+      
+    margin-right: 10%;
+
   }
   .car-slider-limit{
       margin:0;
