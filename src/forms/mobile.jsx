@@ -100,17 +100,13 @@ const Mobile = (props) => {
     return (
         <div className="App-mob">
             <header>
-                <div className='left-sec'>
-                    <div className="menu-open"/>
-                    <div className="mobile-cards-header">
-                        <div className="mobile-cards-header-content"></div>     
-                    </div>
-                </div>          
-                <div className='right-sec'>
-                    <div className='user-name'>
-                        <div className='user-pr'>
-                            <div className='user-q'/>
-                        </div>
+                <div className="menu-open"/>
+                <div className="mobile-cards-header">
+                    <div className="mobile-cards-header-content"></div>     
+                </div>        
+                <div className='user-name'>
+                    <div className='user-pr'>
+                        <div className='user-q'/>
                     </div>
                 </div>
             </header>
@@ -122,8 +118,10 @@ const Mobile = (props) => {
                             <div className='link-purple-line'></div>
                             <div className='link-text'>BSG.IO/Id1245</div>
                         </div>
-                        <img className='link-img1' src = {linkCopy}></img>
-                        <img className='link-img2' src = {linkShare}></img>
+                        <div>
+                            <img className='link-img1' src = {linkCopy}></img>
+                            <img className='link-img2' src = {linkShare}></img>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -264,7 +262,6 @@ const Mobile = (props) => {
                     </div>
                     <div className='card-under-line-selected'></div>
                 </div>
-
             </div>
             <h1 id='car-information'>Here all your cars and main information</h1>
             <div className='left-up-bl'>
@@ -288,13 +285,12 @@ const Mobile = (props) => {
                     </div>
                     <div className='left-up-bl-check-up-block'/>
                     <div className='left-up-bl-check-up-block'/>
-                    <div className='left-up-bl-check-up-block'/>
-                    <div className='left-up-bl-check-up-block'/>
-
+                    <div className='left-up-bl-check-up-block' style = {{marginRight:"0"}}/>
                     <div className='left-up-bl-check-up-block'/>
                     <div className='left-up-bl-check-up-block'/>
                     <div className='left-up-bl-check-up-block'/>
                     <div className='left-up-bl-check-up-block'/>
+                    <div className='left-up-bl-check-up-block' style = {{marginRight:"0"}}/>
                     <div className='left-up-bl-check-up-block'/>
                     <div className='left-up-bl-check-up-block'/>
                 </div>
@@ -319,121 +315,121 @@ const Mobile = (props) => {
                 <div className='left-down-bl-down-line'/>
             </div>
             <div className='car'>
-                    <div className='car-upper-block'>
-                        <div className="upper-block-1">
-                            <img className='car-img1' src = {carTesla}></img>
-                            <div className='car-tesla-text'>Cyber Car V2</div>
-                            <div className='car-tesla-text2'>LEVEL 8</div>
-                        </div>
-                        <div className = "mobile-slider">
-                            <div className = "car-slider-limit">0</div>
-                                <input 
-                                    id="typeinp" 
-                                    type="range" 
-                                    min="0" max="12" 
-                                    step="1"
-                                    value={carSlide}
-                                    onChange={handleNextButtonClick}
-                                    
-                                />
-                                <h1 className="carSlideText" style = {{right: styleFilters}} >{carSlide}</h1>
-                            <div className = "car-slider-limit">12</div>
-                        </div>  
-                        <img className='car-img2' src = {carUpgrade}></img>
+                <div className='car-upper-block'>
+                    <div className="upper-block-1">
+                        <img className='car-img1' src = {carTesla}></img>
+                        <div className='car-tesla-text'>Cyber Car V2</div>
+                        <div className='car-tesla-text2'>LEVEL 8</div>
                     </div>
-                    <div className="car-parameters-all">
-                        <div className = "car-parameters">
-                            <div className='car-parameter'>
-                                <div className = "car-parameter-title" style={{fontSize:"9px"}}>TEMPERATURE</div>
-                                <div className = "car-parameter-value-content">
-                                    <div className='car-parameter-value-text1'>20</div>
-                                    <div className='car-parameter-value-text2'>ºC</div>
-                                </div>
-                                <div className='car-control'>
-                                    <Logo2 className='car-control-up'/>
-                                    <Logo3 className='car-control-down'/>
-                                </div>
+                    <div className = "mobile-slider">
+                        <div className = "car-slider-limit">0</div>
+                            <input 
+                                id="typeinp" 
+                                type="range" 
+                                min="0" max="12" 
+                                step="1"
+                                value={carSlide}
+                                onChange={handleNextButtonClick}
+                                
+                            />
+                            <h1 className="carSlideText" style = {{right: styleFilters}} >{carSlide}</h1>
+                        <div className = "car-slider-limit" style = {{marginLeft:"-5px"}}>12</div>
+                    </div>  
+                    <img className='car-img2' src = {carUpgrade}></img>
+                </div>
+                <div className="car-parameters-all">
+                    <div className = "car-parameters">
+                        <div className='car-parameter'>
+                            <div className = "car-parameter-title" style={{fontSize:"9px"}}>TEMPERATURE</div>
+                            <div className = "car-parameter-value-content">
+                                <div className='car-parameter-value-text1'>20</div>
+                                <div className='car-parameter-value-text2'>ºC</div>
                             </div>
-                            <div className='car-parameter'>
-                                <div className = "car-parameter-title">PHONE</div>
-                                <div className = "car-parameter-value2">
-                                    <div className='car-radio'>
-                                        <div className='car-radio-text'>Speaker</div>
-                                        <div class="button r" id="button-1">
-                                            <input type="checkbox" class="checkbox" />
-                                            <div class="knobs"></div>
-                                            <div class="layer"></div>
-                                        </div>
-                                    </div>
-                                    <div className='car-radio'>
-                                        <div className='car-radio-text'>Mute</div>
-                                        <div class="button r" id="button-1">
-                                            <input type="checkbox" class="checkbox" />
-                                            <div class="knobs"></div>
-                                            <div class="layer"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className='car-control'>
+                                <Logo2 className='car-control-up'/>
+                                <Logo3 className='car-control-down'/>
                             </div>
                         </div>
-                        <div className = "car-parameters">
-                            <div className='car-parameter'>
-                                <div id = "car-content2" className='car-parameter-content'>
-                                    <div className='car-parameter-content-column'>
-                                        <div className = "car-parameter-title" style = {{marginBottom:"20px"}}>BATTERY</div>
-                                        <div className = "car-parameter-value3">
-                                            <div className='car-2-lines'>
-                                                <div id = "car-value-content" className = "car-parameter-value-content">
-                                                    <div className='car-parameter-value-text3'>65</div>
-                                                    <div id = "car-text2" className='car-parameter-value-text2'>%</div>
-                                                </div>
-                                                <div id = "car-value-content"  className = "car-parameter-value-content">
-                                                    <div className='car-parameter-value-text3'>145</div>
-                                                    <div id = "car-text2" className='car-parameter-value-text2'>km</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div className='car-parameter'>
+                            <div className = "car-parameter-title">PHONE</div>
+                            <div className = "car-parameter-value2">
+                                <div className='car-radio'>
+                                    <div className='car-radio-text'>Speaker</div>
+                                    <div class="button r" id="button-1">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs"></div>
+                                        <div class="layer"></div>
                                     </div>
-                                    <img className='car-img4' src = {carLevel}></img>
                                 </div>
-                            </div>
-                            <div className='car-parameter'>
-                                <div id = "car-content2" className='car-parameter-content'>
-                                    <div className='car-parameter-content-column'>
-                                        <div id = "parameter-4" className = "car-parameter-title" style = {{marginBottom:"26px"}}>TRIP A</div>
-                                        <div className = "car-parameter-value3">
-                                            <div className='car-2-lines'>
-                                                <div id = "car-value-content" className = "car-parameter-value-content">
-                                                    <div className='car-parameter-value-text3'>151</div>
-                                                    <div id = "car-text2" className='car-parameter-value-text2'>km</div>
-                                                </div>
-                                                <div id = "car-value-content"  className = "car-parameter-value-content">
-                                                    <div className='car-parameter-value-text3'>1.4</div>
-                                                    <div id = "car-text2" className='car-parameter-value-text2'>h</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div className='car-radio'>
+                                    <div className='car-radio-text'>Mute</div>
+                                    <div class="button r" id="button-1">
+                                        <input type="checkbox" class="checkbox" />
+                                        <div class="knobs"></div>
+                                        <div class="layer"></div>
                                     </div>
-                                    <img className='car-img5' src = {carButton}></img>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='car-big'>
-                        <div className = "car-big-content">
-                            <div className = "car-big-up">
-                                <div id = "locked" style={{marginTop: "36px"}}/>
+                    <div className = "car-parameters">
+                        <div className='car-parameter'>
+                            <div id = "car-content2" className='car-parameter-content'>
+                                <div className='car-parameter-content-column'>
+                                    <div className = "car-parameter-title" style = {{marginLeft:"22%"}}>BATTERY</div>
+                                    <div className = "car-parameter-value3">
+                                        <div className='car-2-lines'>
+                                            <div id = "car-value-content" className = "car-parameter-value-content">
+                                                <div className='car-parameter-value-text3'>65</div>
+                                                <div id = "car-text2" className='car-parameter-value-text2'>%</div>
+                                            </div>
+                                            <div id = "car-value-content"  className = "car-parameter-value-content">
+                                                <div className='car-parameter-value-text3'>145</div>
+                                                <div id = "car-text2" className='car-parameter-value-text2'>km</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img className='car-img4' src = {carLevel}></img>
                             </div>
-                            <div className = "car-big-center">
-                                <div id = "locked"/>
-                                <div id = "locked" style = {{marginRight:"5px"}}/>
-                            </div>
-                            <div className = "car-big-up">
-                                <div id = "locked" style={{marginTop: "50px"}}/>
+                        </div>
+                        <div className='car-parameter'>
+                            <div id = "car-content2" className='car-parameter-content'>
+                                <div className='car-parameter-content-column'>
+                                    <div id = "parameter-4" className = "car-parameter-title" style = {{marginLeft:"22%"}}>TRIP A</div>
+                                    <div className = "car-parameter-value3">
+                                        <div className='car-2-lines'>
+                                            <div id = "car-value-content" className = "car-parameter-value-content">
+                                                <div className='car-parameter-value-text3'>151</div>
+                                                <div id = "car-text2" className='car-parameter-value-text2'>km</div>
+                                            </div>
+                                            <div id = "car-value-content"  className = "car-parameter-value-content">
+                                                <div className='car-parameter-value-text3'>1.4</div>
+                                                <div id = "car-text2" className='car-parameter-value-text2'>h</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <img className='car-img5' src = {carButton}></img>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className='car-big'>
+                    <div className = "car-big-content">
+                        <div className = "car-big-up">
+                            <div id = "locked" style={{marginTop: "36px"}}/>
+                        </div>
+                        <div className = "car-big-center">
+                            <div id = "locked"/>
+                            <div id = "locked" style = {{marginRight:"5px"}}/>
+                        </div>
+                        <div className = "car-big-up">
+                            <div id = "locked" style={{marginTop: "50px"}}/>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 
             <div className='left-footer'>
                 <h1> Be in touch with us:</h1>
@@ -442,7 +438,7 @@ const Mobile = (props) => {
                     <Logo className='dis-f'/>
                     <Logo1 className='telega-f'/>
                 </div>
-            </div>          
+            </div>
             <div className="c-c-mobile">
                 <div className='c-c'>
                     <div className='footer-position'>
@@ -495,17 +491,10 @@ const Mobile = (props) => {
                         <Logo4 className='chat-ic'/>
                         <h1> Chat with us</h1>                           
                     </div>
-                    <div className='circle-3'>
-                        <div className='circle-2'>
-                            <div className='circle-1'>
-                                <div className='drid'/>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+            <div className="driiidik"/>
         </div>
-        
     )
 }
 
