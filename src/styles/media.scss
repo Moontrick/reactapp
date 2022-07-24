@@ -351,8 +351,8 @@
           width: 6px;
       }
       .score-graph{
-          width: 329px;
-          height: 230px;
+        width: 325px;
+        height: 228px;
           background-position-y: 0px;
           background-size: 329px;
           background-position-x: -3px;
@@ -361,7 +361,7 @@
           margin: 46px 0px 0px 123px;
       }
       .graph{
-          width: 329px;
+          width: 324px;
           height: 109px;
           background: url(../assets/images/graph.svg);
           background-repeat: no-repeat;
@@ -1807,12 +1807,12 @@
         }
         .score-graph{
           background: url(../assets/images/profile-bg.svg) no-repeat bottom;
-          width:390px;
-          height:319px;
+          width:387px;
+          height:318px;
           background-position-y: 0px;
         }
         .graph{
-          width:390px;
+          width:387px;
           height:132px;
           background: url(../assets/images/graph.svg);
         }
@@ -3244,7 +3244,7 @@
           width: 20.979551315307617px;
       }
       .score-graph{
-          width: 526px;
+          width: 525px;
           height: 445px;
           margin-top:42px;
           background-position-y: 0px;
@@ -3252,7 +3252,7 @@
           background: url(../assets/images/profile-bg-2k.svg) center center no-repeat;
       }
       .graph img{
-          margin: 88px 0px 0px 173px;
+          margin: 92px 0px 0px 173px;
       }
       .graph{
           width: 528px;
@@ -3261,9 +3261,10 @@
           background-repeat: no-repeat;
           background-position-x: -1px;
           background-size: 525px;
+          background-position-y: 5px;
       }
       .profit-block{
-          height: 256px;
+          height: 232px;
           width:525px;
       }
       .profit{
@@ -4294,7 +4295,7 @@
       }
       .profile{
           height: 1441.2855224609375px;
-          width: 771.7715454101562px;
+          width: 774.771545px;
           border-radius: 9.544937133789062px;
           margin-top: 53px;
       }
@@ -4388,27 +4389,41 @@
       }
       .score-graph{
           width: 777px;
-          height: 700px;
+          height: 651px;
           background-position-y: 0px;
           background-size: cover;
           background: url(../assets/images/score-graph-4k.svg) center center no-repeat;
           background-size: 776px;
           background-position-x: -5px;
       }
+      #pr-id{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 57.2696px;
+        line-height: 46px;
+        /* or 80% */
+        margin-top: 55px;
+        text-align: center;
+        letter-spacing: 0.277671px;
+
+        color: #FFFFFF;
+
+        opacity: 0.9;
+      }
       .graph img{
-          margin: 201px 0px 0px 175px;
+          margin: 185px 0px 0px 175px;
           width:30px;
       }
       .graph{
           background: url(../assets/media/Path.svg) center center no-repeat;
-          background-position-y: 24px;
+          background-position-y: 3px;
           position: relative;
-          width: 777px;
+          width: 769px;
           height: 289px;
           background-repeat: no-repeat;
       }
       .profit-block{
-          height: 382px;
+          height: 358px;
           width:776px;
       }
       .profit{
