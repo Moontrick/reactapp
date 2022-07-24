@@ -40,50 +40,50 @@ const Mobile = (props) => {
     function handleNextButtonClick(e){
         if(e.target.value == 0) {
 
-                setStyle("152px")
+                setStyle("194px")
         }else if(e.target.value == 1) {
 
-                setStyle("139px")
+                setStyle("176px")
 
             }
             else if(e.target.value == 2) {
-                setStyle("130px")
+                setStyle("164px")
 
             }
             else if(e.target.value == 3) {
-                setStyle("118px")
+                setStyle("149px")
 
             }
             else if(e.target.value == 4) {
-                setStyle("108px")
+                setStyle("134px")
 
             }
             else if(e.target.value == 5) {
-                setStyle("96px")
+                setStyle("119px")
 
             }
             else if(e.target.value == 6) {
-                setStyle("86px")
+                setStyle("106px")
 
             }
             else if(e.target.value == 7) {
-                setStyle("74px")
+                setStyle("91px")
 
             }
             else if(e.target.value == 8) {
-                setStyle("64px")
+                setStyle("77px")
 
             }
             else if(e.target.value == 9) {
-                setStyle("53px")
+                setStyle("62px")
 
             }
             else if(e.target.value == 10) {
-                setStyle("44px")
+                setStyle("49px")
   
             }
             else if(e.target.value == 11) {
-                setStyle("31px")
+                setStyle("34px")
            
             }
             else if(e.target.value == 12) {
@@ -95,7 +95,7 @@ const Mobile = (props) => {
     }
     useEffect(() => {
         setCount(6);
-        setStyle("85px")
+        setStyle("106px")
     }, []);
     return (
         <div className="App-mob">

@@ -40,6 +40,7 @@
       .card-prime{
         margin-left:-35px;
       }
+  
       .card-prime-img{
         height:83px;
         width:184px;
@@ -2545,7 +2546,7 @@
           }
           .car-img5{
             margin-right:25px;
-            margin-top:54px;
+            margin-top:100px;
           }
           .car-tesla-text{
             width: 99px;
@@ -2671,7 +2672,8 @@
             margin-right:5px;
           }
           #car-text2{
-            margin-top:2px;
+            margin-top: 3px;
+            margin-left: 2px;
           }
           #parameter-text3{
             width:36px;
@@ -2882,6 +2884,10 @@
           width: 100%;
           height: 100%;
           background-size: cover;
+      }
+      #car-text2{
+        margin-top: 10px;
+        margin-left: 2px;
       }
       .driiidik{
         margin-left: -217px;
@@ -3508,6 +3514,7 @@
       .left-down-bl-1{
           width: 525px;
           height: 283.644592px;
+          border-radius: 6.45525px;
       }
       .card-over:hover .card-under-line-selected{
           display: flex;
@@ -3516,10 +3523,9 @@
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          height: 275.64459228515625px;
-          width: 517.48877px;     
+          height: 283.644592px;
+          width: 526.48877px; 
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
-          border: 3.56135px solid rgba(255, 255, 255, 0.04);
           border-radius: 6.45525px;
       }
       #left-up-bl-up-h1{
@@ -3735,7 +3741,8 @@
           color: #ffffff;
       }
       .car-parameter-value-text2{
-          margin-left: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
           height: 15px;
           font-family: "Nippo";
           font-style: normal;
@@ -3744,6 +3751,10 @@
           line-height: 19px;
           text-align: center;
           color: #FFFFFF;
+      }
+      #percent{
+        margin-left: 20px;
+        margin-top: 25px;
       }
       .car-parameter-value-content{
           margin-bottom: 20px;
@@ -3812,6 +3823,7 @@
         }
         .car-img5{
           width: 40px;
+          margin-top: 83px;
         }
         .car-parameter-content{
           margin: 23px 0 auto 37px;
@@ -4707,13 +4719,16 @@
       .left-down-bl-1{
           width:771px;
           height: 422.3818664550781px;
+          border-radius: 10.3525px;
       }
       .left-down-bl{
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          height: 413.3818664550781px;
-          width: 762.64453125px;        
+          height: 422.381866px;
+          width: 769.644531px;
+          position: relative;
+          top: -1px;      
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
           mix-blend-mode: normal;
           border-radius: 10.3525px;
@@ -5395,8 +5410,11 @@ and (max-device-width: 770px) {
   .card{
       width:100%;
   }
+  .card:hover .card-under-line-selected{
+   display: flex;
+  }
   .card-under-line-selected{
-      width:264px;
+    width: 371px;
       height:6px;
       border-radius: 5px 5px 5px 5px;
       margin-top: -2px;
@@ -5435,7 +5453,7 @@ and (max-device-width: 770px) {
       margin: 0 auto;
       text-align: center;
       margin-top: 20px;
-      margin-bottom: 19px;
+      margin-bottom: -3px;
   }
   .left-up-bl{
       width: 90%;
@@ -5458,7 +5476,7 @@ and (max-device-width: 770px) {
       width: 54px;
       height: 22px;
       opacity: 0.9;
-      margin-right: 3px;
+      margin-right: 0px;
   }
   .left-up-bl-up-active h1{
       height: 12px;
@@ -5664,7 +5682,7 @@ and (max-device-width: 770px) {
   @media only screen
   and (max-device-width: 429px) {
       .profile{
-        height:737px
+        height:704px
       }
       .score-graph{
         height:334px;
@@ -5811,7 +5829,7 @@ and (max-device-width: 770px) {
   }
   input[type=range] {
       -webkit-appearance: none;
-      width: 159px;
+      width: 200px;
       background: linear-gradient(90deg, rgb(210, 70, 158) 0.78%, rgba(75, 213, 207) 100.02%);
       mix-blend-mode: normal;
       border-radius: 5.24558px;
@@ -5927,7 +5945,10 @@ and (max-device-width: 770px) {
     }
     #parameter-4{
       width:50px;
+    }.carSlideText{
+      width: 8px;
     }
+  
     .car-big{
       width: 90%;
       background-size: 169px;
