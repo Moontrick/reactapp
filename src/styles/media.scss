@@ -4,7 +4,7 @@
   }
   
   
-  @media only screen and(min-width: 772px){
+  @media only screen and(min-width: 772px) and (min-height:700px){
       body{
           line-height: 1;
           background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
@@ -1269,7 +1269,7 @@
   //         // }
   //     }
   // }
-  @media only screen and (min-width: 1919px){
+  @media only screen and (min-width: 1919px) and (min-height: 1080px){
       body{
           line-height: 1;
           background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
@@ -2887,7 +2887,7 @@
         
         
   }
-  @media only screen and (min-width: 2559px) {
+  @media only screen and (min-width: 2559px) and (min-height:1440px) {
       body{
           line-height: 1;
           background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
@@ -4004,7 +4004,7 @@
           right: 98px;
         }
   }
-  @media only screen and (min-width: 3839px) {
+  @media only screen and (min-width: 3839px) and(min-height:2161px){
       body{
           line-height: 1;
           background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
@@ -5851,7 +5851,6 @@ and (max-device-width: 770px) {
   }
   .car-tesla-text2{
     height: 12px;
-    width:15vw;
     font-size: 13px;
     line-height: 12px;    
     margin-right: 9vw;
