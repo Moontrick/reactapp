@@ -3886,11 +3886,7 @@
           font-weight: 700;
           font-size: 17.7519px;
           line-height: 18px;
-          /* identical to box height, or 100% */
-          margin-bottom: 10px;
-
           color: #FFFFFF;
-
           mix-blend-mode: normal;
           opacity: 0.4;
         }
@@ -5129,23 +5125,19 @@
           margin-left: 55px;
         }
         .car-tesla-text{
-          margin-top: 18px;
+          margin-top: 9px;
           margin-left: 22px;
           margin-right: 18px;
-          width: 176px;
+          width: 191px;
           font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 27.354px;
-          line-height: 32px;
-          /* identical to box height, or 115% */
-          
+          line-height: 32px; 
           display: flex;
           align-items: flex-end;
-          letter-spacing: 1.95386px;
-          
-          color: #FFFFFF;
-          
+          letter-spacing: 1.95386px;         
+          color: #FFFFFF; 
           opacity: 0.9;
         }
         .car-tesla-text2{
