@@ -256,8 +256,12 @@ const Mobile = (props) => {
                             <img className = "card4-img" src = {cardTime}></img>                      
                         </div>
                         <div className='card-count-block2'>
-                                <div className="card-count2">72%</div>
-                                <img src={cardProgress}></img>
+                            <div className="card-count2">
+                                <div className="id2">72%</div>
+                                <div className="id1">72%</div>
+                                <div className="id3">72%</div>
+                            </div>
+                            <img src={cardProgress}></img>
                         </div>  
                     </div>
                     <div className='card-under-line-selected'></div>
