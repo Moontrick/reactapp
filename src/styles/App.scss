@@ -698,7 +698,7 @@ display: flex;
 .card-count{
   position:relative;
   height: 26px;
-  font-family: 'Nippo';
+  font-family: 'Nippo-B';
   font-style: normal;
   font-weight: 500;
   font-size: 27px;
@@ -728,6 +728,44 @@ display: flex;
   right: 0;
   color: #FFFFFF;
   margin:0;
+}
+.card-count2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nippo-B';
+  position:relative;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.card-count2 .id1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #D2459E;
+  margin: -1px 1px 0px 0px;
+  margin-top:1px;
+}
+.card-count2 .id2{
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #17E3F3;
+  margin: 1px -1px 0px 0px;
+}
+.card-count2 .id3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  margin:0;
+  margin-top:2px;
 }
 .card-percent{
   display: flex;
@@ -1004,7 +1042,8 @@ display: flex;
   background: #EA3498;
   box-shadow: 0px -30.9701px 72.2636px 92.9104px rgba(234, 52, 151, 0.06);
   border-radius: 5.16169px;
-  position: absolute;
+  position: relative;
+  top: -7px;
 
 }
 #car-information{

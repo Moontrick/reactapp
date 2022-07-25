@@ -4,7 +4,7 @@
   }
   
   
-  @media only screen and(min-width: 1024px){
+  @media only screen and(min-width: 772px){
       body{
           line-height: 1;
           background: #0B0C1D url(../assets/media/bg4k.svg) center 0 no-repeat;
@@ -262,7 +262,7 @@
       }
       .footer-down-line{
           height: 6px;
-          width: 125px;
+          width: 128px;
       }
       .footer-block{
           display: flex;
@@ -677,27 +677,29 @@
           width: 319px;
           border-radius: 4px;       
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
-          margin-bottom: 18px;
+          margin-bottom: 17px;
           mix-blend-mode: normal;
       }
       .left-down-bl-1{
-          height: 177px;
-          width: 315px;
-          left: 385px;
-          border-radius: 4px;
+          height: 178px;
+          width: 314px;
+          border-radius: 8px;
           border: 3.56135px solid rgba(255, 255, 255, 0.04);
       }
       .left-down-bl{
+        position: relative;
+        left: -1px;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          height: 178px;
+          height: 179px;
           width: 316px;
           border-radius: 4px;    
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
       }
       #left-up-bl-up-h1{
-          margin-right: 63px;
+          margin-left: 8px;
+          margin-right: 50px;
           font-family: 'Nippo';
           font-style: normal;
           font-weight: 200;
@@ -747,6 +749,7 @@
       }
       .left-up-bl-check-up{
           margin-bottom: 5px;
+          margin-left: 22px;
       }
       .left-up-bl-check-up-block-plus{
           height: 40px;
@@ -775,6 +778,9 @@
       }
       .left-down-bl-down-left{ 
           margin-bottom: 30px;
+      }
+      #binance{
+        margin-left: 23px;
       }
       #left-down-bl-down-left-h1{
           font-family: 'Nippo';
@@ -845,7 +851,7 @@
       background-size: cover;
       }
       .left-down-bl-down-line{
-          width: 316px;
+          width: 320px;
           height: 6px;
           border-radius: 4px;
           
@@ -907,6 +913,9 @@
       }
       .car-parameter-value-text1{
           width: 50px;
+      }
+      .left-down-bl-up{
+        margin-left: 20px;
       }
       .car-parameter-value-text1{
           font-family: 'Nippo';
@@ -1029,8 +1038,8 @@
           margin-bottom: 5px;
           margin-left: 8px;
           margin-right: 10px;
-          width: 82px;
-          font-family: 'Nippo';
+          width: 100px;
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 11px;
@@ -2192,8 +2201,8 @@
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
-          width: 386px;
-          height: 204px;
+          width: 387px;
+          height: 203px;
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
 
           border-radius: 4.75904px;
@@ -2287,12 +2296,11 @@
           background: url(../assets/car.svg) center 0 no-repeat;
         }
         .left-down-bl-down-line{
-          width: 385px;
+          width: 391px;
           height: 7.23px;
           background: #EA3498;
           box-shadow: 0px -30.9701px 72.2636px 92.9104px rgba(234, 52, 151, 0.06);
           border-radius: 5.16169px;
-          position: absolute;
         
         }
         #car-information{
@@ -2550,9 +2558,9 @@
             margin-top: 60px;
           }
           .car-tesla-text{
-            width: 99px;
+            width: 115px;
             height: 16px;
-            font-family: 'Nippo';
+            font-family: 'Nippo-B';
             font-style: normal;
             font-weight: 700;
             font-size: 13.6385px;
@@ -2885,6 +2893,9 @@
           width: 100%;
           height: 100%;
           background-size: cover;
+      }
+      .left-down-bl-up{
+        margin-left: 41px;
       }
       #car-text2{
         margin-top: 10px;
@@ -3514,7 +3525,7 @@
           border-radius: 6.45525px;
       }
       .left-down-bl-1{
-          width: 525px;
+          width: 524px;
           height: 283.644592px;
           border-radius: 6.45525px;
       }
@@ -3673,7 +3684,7 @@
       background-size: cover;
       }
       .left-down-bl-down-line{
-          width: 522px;
+          width: 530px;
       }
       .left-down-left-bl{
         height: 600.337890625px;
@@ -3850,8 +3861,8 @@
         .car-tesla-text{
           margin-left: 15px;
           margin-right: 16px;
-          width: 119px;
-          font-family: 'Nippo';
+          width: 140px;
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 17.7519px;
@@ -4742,7 +4753,7 @@
           flex-direction: column;
           justify-content: space-evenly;
           height: 422.381866px;
-          width: 769.644531px;
+          width: 770.644531px;
           position: relative;
           top: -1px;      
           background: linear-gradient(90deg, rgba(210, 70, 158, 20%) 0.78%, rgba(75, 213, 207, 20%) 100.02%);
@@ -4915,12 +4926,13 @@
           background-size: cover;
       }
       .left-down-bl-down-line{
-          width: 771.802856px;
-          height: 14.493462562561048px;
-          background: #EA3498;
-          opacity: 0.9;
-          box-shadow: 0px -62.115px 144.935px 186.345px rgba(234, 52, 151, 0.06);
-          border-radius: 10.3525px;
+        width: 776.802856px;
+        height: 14.4934625626px;
+        background: #EA3498;
+        opacity: 0.9;
+        box-shadow: 0px -62.115px 144.935px 186.345px rgb(234 52 151 / 6%);
+        top: -16px;
+        border-radius: 10.3525px;
       }
       .left-down-left-bl{
         height: 883.103333px;
@@ -5120,7 +5132,7 @@
           margin-left: 22px;
           margin-right: 18px;
           width: 176px;
-          font-family: 'Nippo';
+          font-family: 'Nippo-B';
           font-style: normal;
           font-weight: 700;
           font-size: 27.354px;
@@ -5801,11 +5813,10 @@ and (max-device-width: 770px) {
       justify-content: center;
       align-items: center;
       margin-top:17px;
-      width: 100%;
-      margin-left: 10%;
   }
   .car-img1{
-      margin-left:23px;
+      margin-left:0px;
+
   }
   .car-img2{
       margin:0;
@@ -5820,18 +5831,18 @@ and (max-device-width: 770px) {
       margin-right:9px;
   }
   .car-tesla-text{
+      margin: 0;
+      margin-left: 7%;
       height: 15px;
-      width: 100%;
+      width: 25vw;
       font-size: 13px;
       line-height: 15px;
   }
   .car-tesla-text2{
-      width: 100%;
       height: 12px;
       font-size: 13px;
       line-height: 12px;
-      
-    margin-right: 10%;
+      margin-right: 0px;
 
   }
   .car-slider-limit{

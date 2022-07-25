@@ -357,20 +357,22 @@ const Decstop = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className='left-down-bl-1'>
-                            <div className='left-down-bl'>
-                                <div className='left-down-bl-up'>
-                                    <h1>Your last car for Race</h1>
-                                </div>
-                                <div className='left-down-bl-down'>
-                                    <div className='left-down-bl-down-left'>
-                                        <h1 id='left-down-bl-down-left-h1'>Staking</h1>
-                                        <h1 id='left-down-bl-down-left-h2'>+15%</h1>
-                                        <h1 id='left-down-bl-down-left-h3'>Race speed</h1>
-                                        <h1 id='left-down-bl-down-left-h4'>+15%</h1>
+                        <div className='left-down-bl-2'>
+                            <div className='left-down-bl-1'>
+                                <div className='left-down-bl'>
+                                    <div className='left-down-bl-up'>
+                                        <h1>Your last car for Race</h1>
                                     </div>
-                                    <div className='left-down-bl-down-right'>
-                                        <div className='left-down-bl-down-right-car'/>
+                                    <div className='left-down-bl-down'>
+                                        <div className='left-down-bl-down-left'>
+                                            <h1 id='left-down-bl-down-left-h1'>Staking</h1>
+                                            <h1 id='left-down-bl-down-left-h2'>+15%</h1>
+                                            <h1 id='left-down-bl-down-left-h3'>Race speed</h1>
+                                            <h1 id='left-down-bl-down-left-h4'>+15%</h1>
+                                        </div>
+                                        <div className='left-down-bl-down-right'>
+                                            <div className='left-down-bl-down-right-car'/>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +383,7 @@ const Decstop = (props) => {
                     <div className='car'>
                     <div className='car-upper-block'>
                         <img className='car-img1' src = {carTesla}></img>
-                        <div className='car-tesla-text'>Cyber Car V2</div>
+                        <div className='car-tesla-text'> Cyber Car V2</div>
                         <div className='car-tesla-text2'>LEVEL 8</div>
                         <div className = "car-slider-limit">0</div>
                             <input 
