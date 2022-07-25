@@ -2198,6 +2198,7 @@
           align-items: center;
         }
         .left-down-bl{
+          top: -1px;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
@@ -2468,7 +2469,7 @@
             flex-direction: column;
             align-items: center;
             width:794px;
-            height:435px;
+            height:436px;
             box-sizing: border-box;
             background: linear-gradient(90deg, rgba(210, 70, 158, 0.166) 0.78%, rgba(75, 213, 207, 0.166) 100.02%);
             mix-blend-mode: normal;
