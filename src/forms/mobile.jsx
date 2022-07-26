@@ -110,6 +110,7 @@ const Mobile = (props) => {
                     </div>
                 </div>
             </header>
+            
             <div className = "personal-link">
                 <div className = "pesonal-link-content">
                     <div className = "personal-link-title">My personal link:</div>
@@ -299,8 +300,8 @@ const Mobile = (props) => {
                     <div className='left-up-bl-check-up-block'/>
                 </div>
             </div>
-            <div className='left-down-bl-1'>
-                <div className='left-down-bl'>
+            <div className="your-last-car">
+                <div className = "your-last-car-content">
                     <div className='left-down-bl-up'>
                         <h1>Your last car for Race</h1>
                     </div>
@@ -315,9 +316,10 @@ const Mobile = (props) => {
                             <div className='left-down-bl-down-right-car'/>
                         </div>
                     </div>
+                    <div className='left-down-bl-down-line'/>
                 </div>
-                <div className='left-down-bl-down-line'/>
             </div>
+             
             <div className='car'>
                 <div className='car-upper-block'>
                     <div className="upper-block-1">
