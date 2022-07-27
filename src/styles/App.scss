@@ -215,6 +215,7 @@ footer{
   box-shadow: 0px -30.9701px 72.2636px 92.9104px rgb(234 52 151 / 6%);
   border-radius: 4.75905px; 
   position: absolute;
+  opacity: 0.9;
 }
 .l-c{
   margin-right: 22px;
@@ -232,10 +233,11 @@ footer{
 .footer-position:hover{
   background: linear-gradient(134.2deg, #EA3498 -2.74%, #A6075E 95.67%);
   box-shadow: 0px 0px 95.4494px #E33093;
-  border-radius: 9.54494px;
+  border-radius: 6.45525px;
   background-size: 126px;
   background-position-x: -2px;
   background-position-y: -2px;
+  opacity: 0.9;
 }
 .footer-block:hover .footer-down-line{
 display: flex;
