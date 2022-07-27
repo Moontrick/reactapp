@@ -408,8 +408,9 @@
   .dashboard{
       width: 1005px;
       height: 60px;
-      margin-top: 6px;
+      margin-top: 18px;
       margin-left: 10px;
+      margin-bottom:15px;
   }
   .dashboard-title{
       font-family: 'Sportypo';
@@ -417,13 +418,10 @@
       font-weight: 500;
       font-size: 60px;
       line-height: 60px;
-      /* identical to box height, or 100% */
-      
-      
-      color: #FFFFFF;
-      
+      color: #FFFFFF;    
       opacity: 0.9;
       text-shadow: 0px 24.0535px 64.1426px rgba(214, 50, 143, 0.47);
+      letter-spacing: 3px;
   }
   .personal-link{
       height: 74px;
@@ -684,7 +682,7 @@
       mix-blend-mode: normal;
   }
   .left-down-bl-1{
-      height: 178px;
+      height: 176px;
       width: 314px;
       border-radius: 8px;
       border: 3.56135px solid rgba(255, 255, 255, 0.04);
@@ -2347,7 +2345,7 @@
       left: 0;
       right: 0;
       color: #D2459E;
-      margin: -3px 3px 0px 0px;
+      margin: -3px 0px 0px -3px;
     }
     .dashboard-title .id2{
       position: absolute;
@@ -2355,7 +2353,7 @@
       left: 0;
       right: 0;
       color: #17E3F3;
-      margin: 3px -3px 0px 0px;
+      margin: 3px 0px 0px 3px;
     }
     .dashboard-title .id3{
       position: absolute;
